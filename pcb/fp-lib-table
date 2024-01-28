@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lps-1-Footprints")(type "KiCad")(uri "${LEAWOOD}/lps-1/pcb/lib/lps-1-Footprints.pretty")(options "")(descr ""))
+)

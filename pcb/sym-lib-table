@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lps-1-Symbols")(type "KiCad")(uri "${LEAWOOD}/lps-1/pcb/lib/lps-1-Symbols.kicad_sym")(options "")(descr ""))
+)
