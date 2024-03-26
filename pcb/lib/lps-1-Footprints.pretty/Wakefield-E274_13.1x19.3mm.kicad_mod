@@ -63,6 +63,7 @@
 			)
 		)
 	)
+	(attr exclude_from_pos_files allow_missing_courtyard)
 	(fp_line
 		(start -6.72 -0.11)
 		(end -6.72 9.64)
@@ -394,21 +395,9 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Stonecold_HS-S02_13.21x9.53mm.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 0 0.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${LEAWOOD}/lps-1/models/Wakefield-E274.step"
 		(offset
-			(xyz 0 0 9.525)
+			(xyz 0 0 12.525)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -418,6 +407,7 @@
 		)
 	)
 	(model "${LEAWOOD}/lps-1/models/Wakefield-E274.wrl"
+		(hide yes)
 		(offset
 			(xyz 0 0 9.5)
 		)
@@ -426,6 +416,18 @@
 		)
 		(rotate
 			(xyz -90 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
+		(hide yes)
+		(offset
+			(xyz -2.5 -5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )
