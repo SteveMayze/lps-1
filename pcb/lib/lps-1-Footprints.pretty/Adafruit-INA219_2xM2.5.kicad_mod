@@ -1,10 +1,10 @@
-(footprint "Adafruit-INA219"
+(footprint "Adafruit-INA219_2xM2.5"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 2.54 27.94 0)
+		(at 2.159 7.493 0)
 		(layer "Dwgs.User")
 		(hide yes)
 		(uuid "a9245fbf-0025-45af-ac25-64cf75a0374e")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "Adafruit-INA219"
-		(at 10.16 12.7 90)
+	(property "Value" "Adafruit-INA219_2xM2.5"
+		(at 4.064 -6.35 90)
 		(layer "F.Fab")
 		(uuid "5996e209-928b-4618-ba2f-51dde4d69933")
 		(effects
@@ -64,8 +64,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start 0 0)
-		(end 20.32 25.4)
+		(start -1.794 -19.05)
+		(end 3.032 6.35)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -95,35 +95,21 @@
 		(uuid "538135bc-f8b5-4b65-9e18-045eb6f2989b")
 	)
 	(pad "" np_thru_hole circle
-		(at 2.54 2.54)
-		(size 2.54 2.54)
-		(drill 2.54)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "0c41089e-2628-4e91-8a0d-0088db43e210")
-	)
-	(pad "" np_thru_hole circle
-		(at 2.54 22.86)
-		(size 2.54 2.54)
-		(drill 2.54)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "d300b5d0-cb9e-49ed-a964-e5ebd19e9590")
-	)
-	(pad "" np_thru_hole circle
-		(at 17.78 2.54)
+		(at 0.492 -16.51)
 		(size 2.54 2.54)
 		(drill 2.54)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "eb712c37-b795-4571-a51a-0526a4cde0c3")
 	)
 	(pad "" np_thru_hole circle
-		(at 17.78 22.86)
+		(at 0.492 3.81)
 		(size 2.54 2.54)
 		(drill 2.54)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "4bdefffc-cb85-47f2-82c6-005f265cf14c")
 	)
 	(pad "1" thru_hole circle
-		(at 17.272 19.05)
+		(at -0.016 0)
 		(size 1.27 1.27)
 		(drill 0.635)
 		(layers "*.Cu" "*.Mask")
@@ -131,7 +117,7 @@
 		(uuid "9ebb608f-cc77-471d-a48c-7c4763c710ef")
 	)
 	(pad "2" thru_hole circle
-		(at 17.272 16.51)
+		(at -0.016 -2.54)
 		(size 1.27 1.27)
 		(drill 0.635)
 		(layers "*.Cu" "*.Mask")
@@ -139,7 +125,7 @@
 		(uuid "980cfbb5-c1db-433d-a72f-07286ef1945c")
 	)
 	(pad "3" thru_hole circle
-		(at 17.272 13.97)
+		(at -0.016 -5.08)
 		(size 1.27 1.27)
 		(drill 0.635)
 		(layers "*.Cu" "*.Mask")
@@ -147,7 +133,7 @@
 		(uuid "c3bfa8f6-5c41-4832-ba28-776a3a661e02")
 	)
 	(pad "4" thru_hole circle
-		(at 17.272 11.43)
+		(at -0.016 -7.62)
 		(size 1.27 1.27)
 		(drill 0.635)
 		(layers "*.Cu" "*.Mask")
@@ -155,7 +141,7 @@
 		(uuid "6b8d2c16-d91e-4c1b-9809-7e33e485763c")
 	)
 	(pad "5" thru_hole circle
-		(at 17.272 8.89)
+		(at -0.016 -10.16)
 		(size 1.27 1.27)
 		(drill 0.635)
 		(layers "*.Cu" "*.Mask")
@@ -163,7 +149,7 @@
 		(uuid "f4a427d5-4918-481d-b57c-89af0f667135")
 	)
 	(pad "6" thru_hole circle
-		(at 17.272 6.35)
+		(at -0.016 -12.7)
 		(size 1.27 1.27)
 		(drill 0.635)
 		(layers "*.Cu" "*.Mask")
@@ -172,7 +158,7 @@
 	)
 	(model ":LEAWOOD:Adafruit_INA219/pcb/ina219-dc-current-sensor-1.snapshot.3/CJMCU-219 INA219.step"
 		(offset
-			(xyz 20.32 -25.4 2.54)
+			(xyz 3.032 -6.35 2.54)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -183,7 +169,7 @@
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.step"
 		(offset
-			(xyz 17.145 -19.05 2.54)
+			(xyz -0.143 0 2.54)
 		)
 		(scale
 			(xyz 1 1 1)
