@@ -7,7 +7,7 @@
 	(title_block
 		(title "Leawood Power Sensor LPS-1")
 		(date "2024-01-02")
-		(rev "1.0")
+		(rev "1.01")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"

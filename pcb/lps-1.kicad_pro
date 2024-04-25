@@ -490,7 +490,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "lps-1-Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
