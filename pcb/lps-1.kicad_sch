@@ -7,7 +7,7 @@
 	(title_block
 		(title "Leawood Power Sensor LPS-1")
 		(date "2024-01-02")
-		(rev "1.01")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"
@@ -3145,19 +3145,23 @@
 		(uuid "0285a492-cc4e-400c-8795-e4163e352854")
 	)
 	(no_connect
-		(at 306.07 208.28)
-		(uuid "3f556b88-1526-4f0b-b743-5f13619eed1c")
+		(at 306.07 215.9)
+		(uuid "0b426e5d-3612-4bac-b74f-2329b957a9ec")
 	)
 	(no_connect
-		(at 306.07 146.05)
-		(uuid "5658d680-38d2-4edb-b69b-5bd75b8aeb57")
+		(at 306.07 213.36)
+		(uuid "35072d9c-7425-4ab8-85a0-738d45c84d7d")
+	)
+	(no_connect
+		(at 306.07 208.28)
+		(uuid "3f556b88-1526-4f0b-b743-5f13619eed1c")
 	)
 	(no_connect
 		(at 306.07 210.82)
 		(uuid "586d2ba5-01bc-4d39-91d7-58f23786e984")
 	)
 	(no_connect
-		(at 306.07 157.48)
+		(at 306.07 151.13)
 		(uuid "5aec7cd2-e005-4d44-9d70-bd06a1bb09b4")
 	)
 	(no_connect
@@ -3173,7 +3177,7 @@
 		(uuid "732f684a-197e-4d47-b945-c6d3bb48e911")
 	)
 	(no_connect
-		(at 306.07 160.02)
+		(at 306.07 153.67)
 		(uuid "74808686-c684-4b3a-bff2-fa0af5e7a8df")
 	)
 	(no_connect
@@ -3187,10 +3191,6 @@
 	(no_connect
 		(at 306.07 195.58)
 		(uuid "8f954e2e-6865-4317-aaed-fa1acfd11354")
-	)
-	(no_connect
-		(at 306.07 143.51)
-		(uuid "9418e153-5adc-4b41-b6e7-1297de5f2a83")
 	)
 	(no_connect
 		(at 306.07 162.56)
@@ -3352,7 +3352,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 157.48) (xy 306.07 157.48)
+			(xy 283.21 151.13) (xy 306.07 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3812,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 151.13) (xy 306.07 151.13)
+			(xy 283.21 157.48) (xy 306.07 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4272,7 +4272,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 160.02) (xy 306.07 160.02)
+			(xy 283.21 153.67) (xy 306.07 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4292,7 +4292,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 153.67) (xy 306.07 153.67)
+			(xy 283.21 160.02) (xy 306.07 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +4828,7 @@
 		(uuid "1d050a3d-1bb5-4309-b678-22de3e1bf3cc")
 	)
 	(label "RxD0"
-		(at 306.07 153.67 180)
+		(at 306.07 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4915,7 +4915,7 @@
 		)
 		(uuid "4de5e42e-e51a-44ef-96a0-0dedb9505597")
 	)
-	(label "PA3"
+	(label "SCL"
 		(at 306.07 146.05 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4949,7 +4949,7 @@
 		(uuid "52430558-fe22-410b-a839-8624c8fa287b")
 	)
 	(label "TxD0"
-		(at 306.07 151.13 180)
+		(at 306.07 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4970,7 +4970,7 @@
 		)
 		(uuid "60656904-bae0-4b0c-99b2-713146166783")
 	)
-	(label "SCL"
+	(label "PF3"
 		(at 306.07 215.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5080,8 +5080,8 @@
 		)
 		(uuid "9f1dea4c-1b91-44b5-a573-5bf872ff5d95")
 	)
-	(label "MISO"
-		(at 306.07 160.02 180)
+	(label "PA1"
+		(at 306.07 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5135,7 +5135,7 @@
 		)
 		(uuid "bac2d068-6611-425a-a48c-a77301646261")
 	)
-	(label "PA2"
+	(label "SDA"
 		(at 306.07 143.51 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5146,7 +5146,7 @@
 		)
 		(uuid "c15a6ee2-1da0-444a-909b-9b18692ab331")
 	)
-	(label "SDA"
+	(label "PF2"
 		(at 306.07 213.36 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5179,8 +5179,8 @@
 		)
 		(uuid "d35da40e-7ae2-4c9d-b00d-a3b27c7d7da9")
 	)
-	(label "MOSI"
-		(at 306.07 157.48 180)
+	(label "PA0"
+		(at 306.07 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "lps-1-Symbols")(type "KiCad")(uri "${LEAWOOD}/lps-1/pcb/lib/lps-1-Symbols.kicad_sym")(options "")(descr ""))
   (lib (name "sjm-atmega")(type "KiCad")(uri "${MY_LIB}/sjm-atmega.kicad_sym")(options "")(descr ""))
+  (lib (name "sjm-mechanical")(type "KiCad")(uri "${MY_LIB}/mech.kicad_sym")(options "")(descr ""))
 )

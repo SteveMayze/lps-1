@@ -586,6 +586,18 @@
           "label": "Voltage",
           "name": "Voltage",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comp_Name",
+          "name": "Comp_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
         }
       ],
       "filter_string": "",
