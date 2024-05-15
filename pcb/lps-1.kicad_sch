@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Leawood Power Sensor LPS-1")
-		(date "2024-01-02")
-		(rev "1.2")
+		(date "2024-05-15")
+		(rev "1.2.1")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"
