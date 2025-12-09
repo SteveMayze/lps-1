@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Wiring")(type "KiCad")(uri "${LEAWOOD}/lps-1/Wiring/LPS-1 Wiring/lib/Wiring.kicad_sym")(options "")(descr ""))
+)

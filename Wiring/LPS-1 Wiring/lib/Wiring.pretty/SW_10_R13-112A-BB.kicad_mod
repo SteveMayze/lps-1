@@ -1,0 +1,100 @@
+(footprint "SW_10_R13-112A-BB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Rocker Swtich Off-On")
+	(property "Reference" "REF**"
+		(at 0 13.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "da54c3f6-ee12-4260-80d6-480d3b082356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R13-112A B/B"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7c5e1de1-7029-4923-859b-f03eec295554")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d055b7e-e6dc-47aa-9205-a96991c28d80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37038cbf-910e-4342-a3d5-555847c312bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 9.9 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9079702d-aa61-49bc-afec-9a3117ff01af")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bac8eb36-60df-4938-9fb3-9e1601c4b725")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 7.1 0)
+		(size 0.8 4.8)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "e0b8e55e-48b4-429e-bab9-d7981f99f84d")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0)
+		(size 0.8 4.8)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "81857aea-634f-4544-a652-e4a4636976f2")
+	)
+	(embedded_fonts no)
+)
