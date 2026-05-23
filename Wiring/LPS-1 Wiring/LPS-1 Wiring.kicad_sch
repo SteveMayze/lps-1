@@ -933,7 +933,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Wiring:Conn_01x04_Pin"
+		(symbol "Wiring:Block_Connector_04_Pin_B"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -944,7 +944,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 3.556 9.398 0)
+				(at 1.778 -0.254 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -953,8 +953,8 @@
 					)
 				)
 			)
-			(property "Value" "Block_Connector_04"
-				(at 3.556 7.112 0)
+			(property "Value" "Block_Connector_04_b"
+				(at 11.938 -2.286 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -963,8 +963,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Wiring:Degson_04_PC2.5-01P-11-00AH-1_5.2"
-				(at 3.556 -5.334 0)
+			(property "Footprint" ""
+				(at 0 10.922 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -986,10 +986,20 @@
 				)
 			)
 			(property "Description" "Generic Connector Block"
-				(at 3.556 -2.286 0)
+				(at 0 8.636 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1018,195 +1028,24 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_Pin_1_1"
+			(symbol "Block_Connector_04_Pin_B_0_1"
 				(rectangle
-					(start -0.127 3.9624)
-					(end 0.127 4.826)
+					(start -1.27 2.54)
+					(end 1.016 -2.54)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12.7) (xy 0 12.2936)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 3.9624)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.127 12.2936)
-					(end -0.127 11.43)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 2.413 3.9624)
-					(end 2.667 4.826)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 12.7) (xy 2.54 12.2936)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.556) (xy 2.54 3.9624)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.667 12.2936)
-					(end 2.413 11.43)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.953 3.9624)
-					(end 5.207 4.826)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 12.7) (xy 5.08 12.2936)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.556) (xy 5.08 3.9624)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.207 12.2936)
-					(end 4.953 11.43)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 7.493 3.9624)
-					(end 7.747 4.826)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 12.7) (xy 7.62 12.2936)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.556) (xy 7.62 3.9624)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.747 12.2936)
-					(end 7.493 11.43)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			)
+			(symbol "Block_Connector_04_Pin_B_1_1"
 				(pin passive line
-					(at 0 0 90)
+					(at 0 -6.35 90)
 					(length 3.81)
-					(name "Pin_1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1222,9 +1061,29 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 90)
+					(at 0 6.35 270)
 					(length 3.81)
-					(name "Pin_2"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Block_Connector_04_Pin_B_2_1"
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1240,9 +1099,29 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 90)
+					(at 0 6.35 270)
 					(length 3.81)
-					(name "Pin_1"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Block_Connector_04_Pin_B_3_1"
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1258,9 +1137,29 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 90)
+					(at 0 6.35 270)
 					(length 3.81)
-					(name "Pin_2"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Block_Connector_04_Pin_B_4_1"
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1276,9 +1175,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 16.51 270)
+					(at 0 6.35 270)
 					(length 3.81)
-					(name "Pin_1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1286,60 +1185,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 16.51 270)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 16.51 270)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 16.51 270)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1540,8 +1385,8 @@
 		(uuid "3e40a0b1-91ae-47c7-ad8c-8d065c3b17e4")
 	)
 	(rectangle
-		(start 130.81 170.18)
-		(end 167.64 186.69)
+		(start 109.22 170.18)
+		(end 146.05 186.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -1552,7 +1397,7 @@
 		(uuid "4d6b6e7d-18f9-4d62-b5c6-c7f729477eec")
 	)
 	(rectangle
-		(start 118.872 71.755)
+		(start 86.36 71.755)
 		(end 315.214 192.024)
 		(stroke
 			(width 0)
@@ -1576,8 +1421,8 @@
 		(uuid "91bf4f9a-bb4a-460d-b8a6-258b57d5439a")
 	)
 	(rectangle
-		(start 130.175 127.635)
-		(end 204.47 149.225)
+		(start 99.695 127.635)
+		(end 204.47 151.13)
 		(stroke
 			(width 0)
 			(type solid)
@@ -1657,58 +1502,70 @@
 		(uuid "fa39b2b1-9f67-484d-8a00-2e89e12e7e07")
 	)
 	(junction
-		(at 151.13 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d2d5ef6-5d60-4166-8925-2137bb4ccf61")
-	)
-	(junction
-		(at 148.59 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "654adb7f-f8cd-4145-a005-404b13d81d98")
-	)
-	(junction
-		(at 260.35 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80ce2293-38cf-435d-b459-61f2693da710")
-	)
-	(junction
 		(at 215.9 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5a4ccad-6bb1-4a56-9c5d-1988004a7900")
 	)
-	(junction
-		(at 257.81 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2c05d32-cd02-43c0-80ff-50013690e63a")
+	(no_connect
+		(at 129.54 146.05)
+		(uuid "07e823d5-2d86-4ad4-af08-11c25ca75212")
 	)
 	(no_connect
 		(at 215.9 102.87)
 		(uuid "0a165631-888b-4ed2-9d3c-6bae209159a8")
 	)
 	(no_connect
-		(at 140.97 157.48)
+		(at 132.08 133.35)
+		(uuid "1d1a2ae3-fe99-4d7c-bada-4d66d233115e")
+	)
+	(no_connect
+		(at 262.89 133.35)
+		(uuid "272dbfe6-dcf0-43b3-ac86-cad5e6d8797e")
+	)
+	(no_connect
+		(at 127 146.05)
+		(uuid "3c1e8f4e-8325-4faa-a46c-6d0eb4622758")
+	)
+	(no_connect
+		(at 119.38 157.48)
 		(uuid "3f90cc77-3329-4e8a-88d9-f6735529c03e")
 	)
 	(no_connect
-		(at 152.4 157.48)
+		(at 130.81 157.48)
 		(uuid "56a88a00-b3c2-4270-bd16-cfae6d8edf2a")
+	)
+	(no_connect
+		(at 255.27 146.05)
+		(uuid "58d74053-862d-4d8d-957e-c83cf49c550a")
 	)
 	(no_connect
 		(at 228.6 128.27)
 		(uuid "8472f63d-da29-4730-94a6-a77429dbcdfc")
 	)
 	(no_connect
-		(at 153.67 146.05)
+		(at 257.81 146.05)
+		(uuid "87bc98c4-0cb0-4355-8425-8bb03b2d90ba")
+	)
+	(no_connect
+		(at 132.08 146.05)
 		(uuid "8be67fa2-9506-4a93-a0c9-727d7bbe73b5")
+	)
+	(no_connect
+		(at 107.95 115.57)
+		(uuid "9568d12c-e9ce-4426-b370-148e1a028d1b")
 	)
 	(no_connect
 		(at 236.22 128.27)
 		(uuid "9cb21255-f2fb-4518-92e9-abdb848089a2")
+	)
+	(no_connect
+		(at 124.46 133.35)
+		(uuid "a616c3ec-3ef3-4413-b64e-97e1123d0ff4")
+	)
+	(no_connect
+		(at 260.35 146.05)
+		(uuid "bdc930ce-b0d5-464c-9425-0c957b718463")
 	)
 	(no_connect
 		(at 232.41 128.27)
@@ -1752,26 +1609,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 152.4) (xy 175.26 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c43cca-ffd0-45dd-8bf2-b24ff157ea05")
-	)
-	(wire
-		(pts
-			(xy 151.13 124.46) (xy 151.13 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "087ea9eb-6377-49fe-ac7f-83e56df25688")
-	)
-	(wire
-		(pts
 			(xy 220.98 102.87) (xy 220.98 107.95)
 		)
 		(stroke
@@ -1812,6 +1649,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 130.81) (xy 255.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be7a60e-c997-4f76-b0ee-c179d56f082a")
+	)
+	(wire
+		(pts
 			(xy 274.32 127) (xy 290.83 127)
 		)
 		(stroke
@@ -1819,6 +1666,16 @@
 			(type default)
 		)
 		(uuid "1cdd9c91-a4fc-4c4d-a27f-a60acb233edd")
+	)
+	(wire
+		(pts
+			(xy 153.67 143.51) (xy 153.67 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e209025-6143-49a8-ab29-f2a2901c4ea5")
 	)
 	(wire
 		(pts
@@ -1832,26 +1689,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 120.65) (xy 163.83 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2edf2ad7-64a0-4a85-9340-1c1bf0a9c4f3")
-	)
-	(wire
-		(pts
-			(xy 151.13 124.46) (xy 153.67 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f1f48ed-6718-483e-8fa7-2d863f9ea8c0")
-	)
-	(wire
-		(pts
 			(xy 231.14 152.4) (xy 215.9 152.4)
 		)
 		(stroke
@@ -1859,6 +1696,26 @@
 			(type default)
 		)
 		(uuid "3388fffc-de06-41ae-8238-d4b2b9f5f686")
+	)
+	(wire
+		(pts
+			(xy 250.19 128.27) (xy 260.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3517063f-2e28-419d-840a-c999a20021c7")
+	)
+	(wire
+		(pts
+			(xy 251.46 130.81) (xy 255.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b02eb9-76ba-41a2-9463-dc364f657d5d")
 	)
 	(wire
 		(pts
@@ -1872,26 +1729,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 151.13) (xy 151.13 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40546a5e-086a-433f-9c35-a0661684e23e")
-	)
-	(wire
-		(pts
-			(xy 163.83 120.65) (xy 163.83 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40582ab6-45c1-454d-8b54-7be4ec93cfd3")
-	)
-	(wire
-		(pts
 			(xy 218.44 66.04) (xy 218.44 92.71)
 		)
 		(stroke
@@ -1902,33 +1739,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 167.64) (xy 143.51 168.91)
+			(xy 121.92 167.64) (xy 121.92 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4724bdeb-687c-47b7-9f17-3c7a82fc2a20")
-	)
-	(wire
-		(pts
-			(xy 175.26 143.51) (xy 175.26 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "486c0319-e752-44af-8375-e5cb30423451")
-	)
-	(wire
-		(pts
-			(xy 255.27 129.54) (xy 255.27 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4df8a5f1-c660-4e38-b2f0-80c0b1b90e25")
 	)
 	(bus
 		(pts
@@ -1939,6 +1756,16 @@
 			(type default)
 		)
 		(uuid "51b9a35f-3d76-4f73-95f6-bcd58056c04b")
+	)
+	(wire
+		(pts
+			(xy 129.54 130.81) (xy 129.54 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5266aa3b-80b1-40f3-adb7-7cadc93ee834")
 	)
 	(wire
 		(pts
@@ -1962,23 +1789,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 151.13) (xy 151.13 146.05)
+			(xy 127 120.65) (xy 127 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5765bba2-fed1-4468-8081-82676bb35c8c")
+		(uuid "54e817c4-c7fd-4193-bc76-ab297e0e2e5c")
 	)
 	(wire
 		(pts
-			(xy 260.35 124.46) (xy 262.89 124.46)
+			(xy 153.67 130.81) (xy 129.54 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5aebadf8-edd6-4c92-8089-a721eaec75c6")
+		(uuid "59a2d276-c00d-41a0-b634-6d1bd785ff25")
 	)
 	(bus
 		(pts
@@ -2022,13 +1849,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 154.94) (xy 257.81 154.94)
+			(xy 127 120.65) (xy 208.28 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f51ccf5-51f6-4d71-a170-a624013193f2")
+		(uuid "6b722e69-2b2d-4b89-9f49-1305c294a8af")
+	)
+	(wire
+		(pts
+			(xy 257.81 124.46) (xy 257.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfcebe1-e607-4139-91b4-2b5dc536a68b")
 	)
 	(wire
 		(pts
@@ -2052,26 +1889,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 153.67) (xy 260.35 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74acdd14-4e0a-48af-8ae1-52b29baf2d06")
-	)
-	(wire
-		(pts
-			(xy 153.67 124.46) (xy 153.67 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76beff8b-9ab3-4d60-be35-51d5ddaa9516")
-	)
-	(wire
-		(pts
 			(xy 189.23 66.04) (xy 189.23 68.58)
 		)
 		(stroke
@@ -2082,23 +1899,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 124.46) (xy 260.35 129.54)
+			(xy 260.35 128.27) (xy 260.35 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "853905cb-04f1-4abd-8cc3-7dbe49bf1e7d")
-	)
-	(wire
-		(pts
-			(xy 213.36 66.04) (xy 213.36 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "885e105d-93dd-4f6a-9e15-221600b5fe7b")
+		(uuid "8b50e6af-f1dc-4dcf-ad4b-8cf40023e9ca")
 	)
 	(wire
 		(pts
@@ -2112,83 +1919,43 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 124.46) (xy 262.89 129.54)
+			(xy 153.67 143.51) (xy 175.26 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c8ca803-12fa-4bc7-92a1-cc3ad4d43ded")
+		(uuid "8c90c23a-7deb-450e-b806-dbe123a19d82")
 	)
 	(wire
 		(pts
-			(xy 146.05 124.46) (xy 148.59 124.46)
+			(xy 251.46 157.48) (xy 251.46 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e18e11a-52ba-4162-b8d6-b10f2601e3a7")
+		(uuid "9df4dbb0-fad2-4ec9-82aa-d18e78c5fd34")
 	)
 	(wire
 		(pts
-			(xy 148.59 152.4) (xy 148.59 146.05)
+			(xy 213.36 66.04) (xy 213.36 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f580821-7dbe-4eb1-92f7-f01d7c6af8b6")
+		(uuid "a3d23a6d-3e8f-461d-a401-b8933384ecc7")
 	)
 	(wire
 		(pts
-			(xy 148.59 124.46) (xy 148.59 129.54)
+			(xy 135.89 157.48) (xy 251.46 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4891ec1-da97-4a54-b5ea-14109c1e281a")
-	)
-	(wire
-		(pts
-			(xy 146.05 129.54) (xy 146.05 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7f59e25-9735-4cc5-870c-45abf3ca23a7")
-	)
-	(wire
-		(pts
-			(xy 257.81 154.94) (xy 257.81 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae81252-cf28-4feb-bb12-0d20efdaa587")
-	)
-	(wire
-		(pts
-			(xy 148.59 124.46) (xy 151.13 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0363d16-6260-470a-a2e3-3724ff7772d4")
-	)
-	(wire
-		(pts
-			(xy 157.48 157.48) (xy 255.27 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b70aeb43-0995-4321-8205-1e4205f9c064")
+		(uuid "b9d10fee-78c7-4763-be45-1661e073c394")
 	)
 	(bus
 		(pts
@@ -2202,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 168.91) (xy 148.59 168.91)
+			(xy 133.35 168.91) (xy 127 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 168.91) (xy 146.05 172.72)
+			(xy 124.46 168.91) (xy 124.46 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2222,27 +1989,17 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 124.46) (xy 257.81 129.54)
+			(xy 250.19 154.94) (xy 250.19 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc9e335d-4303-4b0d-9134-6720c392f05d")
+		(uuid "cd802411-f727-4a37-af5a-4f8fd968ac6e")
 	)
 	(wire
 		(pts
-			(xy 255.27 124.46) (xy 257.81 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4e95a8-4f3b-4851-ada1-1c72db83fd79")
-	)
-	(wire
-		(pts
-			(xy 148.59 168.91) (xy 148.59 172.72)
+			(xy 127 168.91) (xy 127 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 168.91) (xy 146.05 168.91)
+			(xy 121.92 168.91) (xy 124.46 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2282,17 +2039,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 153.67) (xy 260.35 153.67)
+			(xy 213.36 124.46) (xy 257.81 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e285780c-1260-4801-a44f-e73988f8b828")
+		(uuid "e66c6742-a697-4bae-94ad-63649b523f46")
 	)
 	(wire
 		(pts
-			(xy 146.05 146.05) (xy 146.05 157.48)
+			(xy 124.46 146.05) (xy 124.46 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2310,16 +2067,6 @@
 		)
 		(uuid "e9144603-ab72-42be-9dab-840d465da9d2")
 	)
-	(wire
-		(pts
-			(xy 257.81 124.46) (xy 260.35 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eade02d9-4aab-4575-b5fa-0d589fbf5a13")
-	)
 	(bus
 		(pts
 			(xy 185.42 147.32) (xy 195.58 147.32)
@@ -2332,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 168.91) (xy 154.94 167.64)
+			(xy 133.35 168.91) (xy 133.35 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2362,13 +2109,33 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 146.05) (xy 255.27 157.48)
+			(xy 177.8 154.94) (xy 250.19 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9e5512b-8b99-4d42-a496-595a8f53b2bf")
+		(uuid "ffafc467-b061-4c01-8b45-19a429fbb0fb")
+	)
+	(label "LOAD"
+		(at 160.02 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e62f57e-2d73-4bad-abd6-d841d33e7fbc")
+	)
+	(label "BAT-"
+		(at 138.43 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30efd271-bd41-43c3-b383-25d390e7ef6c")
 	)
 	(label "SP+"
 		(at 189.23 68.58 180)
@@ -2401,7 +2168,7 @@
 		(uuid "594466c5-4c20-4bdd-b3e3-ea7c5eb25edc")
 	)
 	(label "SP+"
-		(at 182.88 148.59 180)
+		(at 180.34 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2420,6 +2187,16 @@
 		)
 		(uuid "7a9dcf8c-7e83-4f44-ab14-d0ce4be08676")
 	)
+	(label "FUSE+"
+		(at 215.9 133.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82c891b0-18b1-4365-93e3-85b2492af841")
+	)
 	(label "SP-"
 		(at 191.77 68.58 0)
 		(effects
@@ -2430,9 +2207,69 @@
 		)
 		(uuid "927e0ea7-3bd3-48ef-ae0c-74d9c57221d5")
 	)
+	(label "LPS_1_GND"
+		(at 213.36 91.44 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6377ab5-cebf-4d24-857b-8b7d5b8db40e")
+	)
+	(label "CHRG+"
+		(at 158.75 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c236897a-5d6f-4643-8781-037581088a4d")
+	)
+	(label "LPS_1_LOAD-"
+		(at 218.44 87.63 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c72d8e5c-70e1-4f41-b3c1-04c4faeb53b3")
+	)
+	(label "CHRG-"
+		(at 181.61 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cea37e9b-902f-47a1-96e2-383b86fd1bb7")
+	)
+	(label "LPS_1_LOAD+"
+		(at 205.74 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f860e307-2cde-418d-85a1-ffb7dddfd077")
+	)
+	(label "BAT+"
+		(at 124.46 156.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff9eeee4-001c-4346-a8b6-e1914c1a2fe7")
+	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 143.51 162.56 270)
+		(at 121.92 162.56 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2442,8 +2279,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1dc08deb-b830-49af-96f6-27c24eff65b2")
-		(property "Reference" "SW3"
-			(at 138.938 161.3478 90)
+		(property "Reference" "SW1"
+			(at 117.348 161.3478 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2454,7 +2291,7 @@
 			)
 		)
 		(property "Value" "Battery Kill Switch"
-			(at 138.938 163.7721 90)
+			(at 117.348 163.7721 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2465,7 +2302,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:SW_101_TC-R13-244D-02"
-			(at 143.51 162.56 0)
+			(at 121.92 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2476,7 +2313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 162.56 0)
+			(at 121.92 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2487,7 +2324,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 143.51 162.56 0)
+			(at 121.92 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +2335,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 143.51 162.56 0)
+			(at 121.92 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2528,8 +2365,140 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "SW3")
+					(reference "SW1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 262.89 139.7 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41ef55c4-099e-4094-bd33-c5a7147ab72f")
+		(property "Reference" "J7"
+			(at 261.874 150.622 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_04_b"
+			(at 264.541 140.9121 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
+			(at 262.89 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 262.89 131.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 262.89 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 262.89 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 262.89 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "454a0084-b448-4697-a8ea-eb64e7195768")
+		)
+		(pin "4"
+			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14526")
+		)
+		(pin "1"
+			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2033")
+		)
+		(pin "8"
+			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1c")
+		)
+		(pin "3"
+			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8de")
+		)
+		(pin "7"
+			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868c")
+		)
+		(pin "2"
+			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53dff")
+		)
+		(pin "6"
+			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa06")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J7")
+					(unit 4)
 				)
 			)
 		)
@@ -2623,6 +2592,138 @@
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
 					(reference "SW2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 127 139.7 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4829b3d3-d60c-4174-80ee-6a97a58ccdff")
+		(property "Reference" "J1"
+			(at 125.984 150.114 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_04_b"
+			(at 103.124 137.414 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
+			(at 127 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 127 131.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 127 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 127 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 127 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5f514e78-6ecf-472f-bb35-d9e097daa05c")
+		)
+		(pin "2"
+			(uuid "24694110-3786-405b-acb6-f6db46a2f9cd")
+		)
+		(pin "1"
+			(uuid "9feb0423-ac0d-44b3-9c49-acad3294eca1")
+		)
+		(pin "7"
+			(uuid "4a31317e-9f26-4bf4-b1e3-6abb3ab491c8")
+		)
+		(pin "6"
+			(uuid "e243d8a1-5f7c-4646-b8c5-42d9bf5aa4a6")
+		)
+		(pin "4"
+			(uuid "c1c274f6-1002-4fd7-a9cd-1dc5e2d66ab1")
+		)
+		(pin "8"
+			(uuid "d0e97b46-490e-4232-b4de-a8d37bd38cac")
+		)
+		(pin "5"
+			(uuid "50d280d7-4247-449b-b7a5-0009cc7ac949")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J1")
+					(unit 2)
 				)
 			)
 		)
@@ -2732,7 +2833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51166455-83fd-4867-88b5-eaaec79c63d9")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 178.816 130.048 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,7 +2911,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2818,7 +2919,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 154.94 162.56 270)
+		(at 133.35 162.56 270)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -2828,8 +2929,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ca02ec2-4cb0-4933-a3ed-18d9a5f0211d")
-		(property "Reference" "SW3"
-			(at 164.846 162.306 90)
+		(property "Reference" "SW1"
+			(at 143.256 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2840,7 +2941,7 @@
 			)
 		)
 		(property "Value" "Battery Kill Switch"
-			(at 177.8 160.02 90)
+			(at 156.21 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2851,7 +2952,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:SW_101_TC-R13-244D-02"
-			(at 154.94 162.56 0)
+			(at 133.35 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2862,7 +2963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 162.56 0)
+			(at 133.35 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2873,7 +2974,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 154.94 162.56 0)
+			(at 133.35 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2884,7 +2985,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 154.94 162.56 0)
+			(at 133.35 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2914,8 +3015,107 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "SW3")
+					(reference "SW1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 124.46 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ea24af2-0734-4ded-979b-b30627b8117e")
+		(property "Reference" "J1"
+			(at 123.444 150.114 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_04_b"
+			(at 100.584 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
+			(at 124.46 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 124.46 131.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5f514e78-6ecf-472f-bb35-d9e097daa05c")
+		)
+		(pin "2"
+			(uuid "24694110-3786-405b-acb6-f6db46a2f9cd")
+		)
+		(pin "1"
+			(uuid "e714c149-feac-4cf4-a63a-e298f81b21b7")
+		)
+		(pin "7"
+			(uuid "4a31317e-9f26-4bf4-b1e3-6abb3ab491c8")
+		)
+		(pin "6"
+			(uuid "e243d8a1-5f7c-4646-b8c5-42d9bf5aa4a6")
+		)
+		(pin "4"
+			(uuid "c1c274f6-1002-4fd7-a9cd-1dc5e2d66ab1")
+		)
+		(pin "8"
+			(uuid "0bb171a8-fb92-4b1e-a8f1-9b15fb22d616")
+		)
+		(pin "5"
+			(uuid "50d280d7-4247-449b-b7a5-0009cc7ac949")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J1")
+					(unit 1)
 				)
 			)
 		)
@@ -2931,7 +3131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8017e5a9-c611-4ced-946b-4476a9b396d1")
-		(property "Reference" "J8"
+		(property "Reference" "J6"
 			(at 243.84 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3004,8 +3204,140 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J8")
+					(reference "J6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 257.81 139.7 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81174029-e9c3-4558-a238-d6543d4f1ca8")
+		(property "Reference" "J7"
+			(at 256.794 150.876 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_04_b"
+			(at 259.461 140.9121 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
+			(at 257.81 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 257.81 131.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 257.81 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 257.81 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 257.81 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "454a0084-b448-4697-a8ea-eb64e7195768")
+		)
+		(pin "4"
+			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14526")
+		)
+		(pin "1"
+			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2033")
+		)
+		(pin "8"
+			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1c")
+		)
+		(pin "3"
+			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8de")
+		)
+		(pin "7"
+			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868c")
+		)
+		(pin "2"
+			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53dff")
+		)
+		(pin "6"
+			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa06")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J7")
+					(unit 2)
 				)
 			)
 		)
@@ -3022,7 +3354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "813e17e5-dc70-4e5a-8bfd-f4e19d151d26")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 213.36 59.2907 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3097,7 +3429,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3105,7 +3437,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 146.05 177.8 90)
+		(at 124.46 177.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3115,7 +3447,7 @@
 		(dnp no)
 		(uuid "8bc7e3f0-00b3-4428-87c1-b48f92be883f")
 		(property "Reference" "J2"
-			(at 147.32 179.578 90)
+			(at 125.73 179.578 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3125,7 +3457,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 147.32 181.864 90)
+			(at 125.73 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3135,7 +3467,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 146.05 177.8 0)
+			(at 124.46 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3146,7 +3478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 177.8 0)
+			(at 124.46 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3157,7 +3489,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 146.05 177.8 0)
+			(at 124.46 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3168,7 +3500,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 146.05 177.8 0)
+			(at 124.46 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3193,38 +3525,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Wiring:Conn_01x04_Pin")
-		(at 255.27 146.05 0)
-		(unit 1)
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 132.08 139.7 0)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a680e9bb-3f2e-4c04-87a2-ceb9bf6a8f50")
-		(property "Reference" "J6"
-			(at 258.826 136.652 0)
+		(uuid "8fe29612-773f-4cc8-b76c-543774994ae7")
+		(property "Reference" "J1"
+			(at 131.064 150.114 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND Connector Block]"
-			(at 258.826 139.0763 0)
+		(property "Value" "Block_Connector_04_b"
+			(at 108.204 137.414 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2_H"
-			(at 258.826 151.384 0)
+		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
+			(at 132.08 128.778 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3235,7 +3570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 146.05 0)
+			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3246,7 +3581,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 258.826 148.336 0)
+			(at 132.08 131.064 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,52 +3591,215 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "d38285d7-7282-4298-96bf-6f9be4b5e2c2")
+		(property "MPN" ""
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "7"
-			(uuid "ec016ebf-2057-415e-96a6-bdffd5e6193c")
+		(property "Link" ""
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "a5a90f3b-8eb9-4979-96f7-44662ff3b8f5")
+		(property "Comp_Name" ""
+			(at 132.08 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "5f06af33-2000-45e6-9d6f-d459216b06c3")
+			(uuid "5f514e78-6ecf-472f-bb35-d9e097daa05c")
+		)
+		(pin "2"
+			(uuid "24694110-3786-405b-acb6-f6db46a2f9cd")
 		)
 		(pin "1"
-			(uuid "8c7e7cde-b2ec-48d8-b11a-3ce9f43e7772")
+			(uuid "c9a36ff1-0457-4542-b2c6-09d17211c765")
 		)
-		(pin "5"
-			(uuid "e6073d07-eba5-4991-ae9f-fa2da67c9dd8")
+		(pin "7"
+			(uuid "4a31317e-9f26-4bf4-b1e3-6abb3ab491c8")
+		)
+		(pin "6"
+			(uuid "e243d8a1-5f7c-4646-b8c5-42d9bf5aa4a6")
 		)
 		(pin "4"
-			(uuid "9275807a-0887-47c0-b900-c108f10b231b")
+			(uuid "c1c274f6-1002-4fd7-a9cd-1dc5e2d66ab1")
 		)
 		(pin "8"
-			(uuid "ffb73eaa-1db7-462c-bcee-04255f7a8888")
+			(uuid "78b1cab3-4af8-4b94-a9a6-7447d3e9f5d2")
+		)
+		(pin "5"
+			(uuid "50d280d7-4247-449b-b7a5-0009cc7ac949")
 		)
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J6")
+					(reference "J1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 255.27 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae689192-66f0-4d49-b2f8-776187a517a9")
+		(property "Reference" "J7"
+			(at 254.254 150.876 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_04_b"
+			(at 264.414 137.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
+			(at 255.27 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 255.27 131.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 255.27 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 255.27 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 255.27 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "454a0084-b448-4697-a8ea-eb64e7195768")
+		)
+		(pin "4"
+			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14526")
+		)
+		(pin "1"
+			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2033")
+		)
+		(pin "8"
+			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1c")
+		)
+		(pin "3"
+			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8de")
+		)
+		(pin "7"
+			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868c")
+		)
+		(pin "2"
+			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53dff")
+		)
+		(pin "6"
+			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa06")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Wiring:Conn_01x04_Pin")
-		(at 146.05 146.05 0)
-		(unit 1)
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 129.54 139.7 0)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ac2fa0b1-5b77-46b6-b7ec-bd527784ab1e")
+		(uuid "d2a1680a-3bad-4117-be34-154fdcd9e37c")
 		(property "Reference" "J1"
-			(at 148.082 137.16 0)
+			(at 128.524 150.114 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3311,8 +3809,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+12V Connector block"
-			(at 141.478 139.954 0)
+		(property "Value" "Block_Connector_04_b"
+			(at 105.664 137.414 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3322,8 +3821,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2_H"
-			(at 149.606 151.384 0)
+		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
+			(at 129.54 128.778 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3334,7 +3833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 146.05 0)
+			(at 129.54 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,7 +3844,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 149.606 148.336 0)
+			(at 129.54 131.064 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3355,8 +3854,9 @@
 				)
 			)
 		)
-		(property "Purpose" ""
-			(at 146.05 146.05 0)
+		(property "MPN" ""
+			(at 129.54 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3365,35 +3865,188 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "d38285d7-7282-4298-96bf-6f9be4b5e2c3")
+		(property "Link" ""
+			(at 129.54 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "7"
-			(uuid "ec016ebf-2057-415e-96a6-bdffd5e6193d")
-		)
-		(pin "6"
-			(uuid "a5a90f3b-8eb9-4979-96f7-44662ff3b8f6")
+		(property "Comp_Name" ""
+			(at 129.54 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "5f06af33-2000-45e6-9d6f-d459216b06c4")
+			(uuid "5f514e78-6ecf-472f-bb35-d9e097daa05c")
+		)
+		(pin "2"
+			(uuid "24694110-3786-405b-acb6-f6db46a2f9cd")
 		)
 		(pin "1"
-			(uuid "8c7e7cde-b2ec-48d8-b11a-3ce9f43e7773")
+			(uuid "2607611a-79eb-46a2-99ae-92732f4a1637")
 		)
-		(pin "5"
-			(uuid "e6073d07-eba5-4991-ae9f-fa2da67c9dd9")
+		(pin "7"
+			(uuid "4a31317e-9f26-4bf4-b1e3-6abb3ab491c8")
+		)
+		(pin "6"
+			(uuid "e243d8a1-5f7c-4646-b8c5-42d9bf5aa4a6")
 		)
 		(pin "4"
-			(uuid "9275807a-0887-47c0-b900-c108f10b231c")
+			(uuid "c1c274f6-1002-4fd7-a9cd-1dc5e2d66ab1")
 		)
 		(pin "8"
-			(uuid "ffb73eaa-1db7-462c-bcee-04255f7a8889")
+			(uuid "c994943f-e24d-43c8-a150-7c0a7b2619e2")
+		)
+		(pin "5"
+			(uuid "50d280d7-4247-449b-b7a5-0009cc7ac949")
 		)
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
 					(reference "J1")
-					(unit 1)
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 260.35 139.7 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7ac650b-de10-4487-a92f-e25bcf915af6")
+		(property "Reference" "J7"
+			(at 259.334 150.622 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_04_b"
+			(at 262.001 140.9121 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
+			(at 260.35 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 260.35 131.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 260.35 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 260.35 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 260.35 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "454a0084-b448-4697-a8ea-eb64e7195768")
+		)
+		(pin "4"
+			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14526")
+		)
+		(pin "1"
+			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2033")
+		)
+		(pin "8"
+			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1c")
+		)
+		(pin "3"
+			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8de")
+		)
+		(pin "7"
+			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868c")
+		)
+		(pin "2"
+			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53dff")
+		)
+		(pin "6"
+			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa06")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J7")
+					(unit 3)
 				)
 			)
 		)
@@ -3410,7 +4063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f11004be-b2e8-43e6-8404-d87f3de38a7f")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 190.5 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3482,7 +4135,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
