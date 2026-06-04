@@ -1,14 +1,14 @@
 (footprint "Degson_01_PC2.5-01P-11-00AH-1_5.2"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -6.858 -25.908 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(hide yes)
-		(uuid "ff016428-0ebb-47a7-8211-8c7b7a9cf1d5")
+		(uuid "321f0c0e-ddb1-432c-b768-92ce9dcc6841")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 28.194 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
-		(uuid "56eeaf21-efcb-49a2-8c5e-2f59733b4a6e")
+		(uuid "d2c5ec9f-89d4-47a5-b865-627659776518")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a04e40ab-4d3f-4990-a346-55ce65abf637")
+		(uuid "ec445516-ab65-40c2-91e9-c2745c63b2de")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a4a4331d-bf59-4e14-9eec-80ceab99237a")
+		(uuid "2749ee2b-543a-4c45-aa80-8f1911891dd7")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -2.6 -23)
 		(end 2.6 23)
@@ -64,13 +65,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "01c84af8-53c5-4c80-b742-4bb8ec7d4ff3")
+		(uuid "d67aa0d0-6f20-43ef-bd57-0e38af779baf")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 25.527 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "fb4bb900-958d-40b4-acea-cd1c7eae2e6e")
+		(uuid "66ae4dd3-0457-4875-910f-514a21956599")
 		(effects
 			(font
 				(size 1 1)
@@ -79,20 +80,20 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 0 -7.4)
-		(size 3.5 3.5)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "a84e6bb4-60f0-4d82-8ab6-6b6a6587d82e")
-	)
-	(pad "1" thru_hole circle
 		(at 0 7.4)
 		(size 3.5 3.5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "fe62766b-e673-4e6a-b752-d512f832ce2e")
+		(uuid "ed03e087-88e3-4641-8b23-06fb1b03f536")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -7.4)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37960b99-add0-410e-90f2-6afb06433989")
 	)
 	(embedded_fonts no)
 )

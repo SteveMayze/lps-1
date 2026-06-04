@@ -674,18 +674,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DPDT_x2"
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "F"
+				(at 2.032 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -694,8 +696,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_DPDT_x2"
-				(at 0 -5.08 0)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -705,7 +707,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -726,7 +728,7 @@
 					)
 				)
 			)
-			(property "Description" "Switch, dual pole double throw, separate symbols"
+			(property "Description" "Fuse"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -737,7 +739,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+			(property "ki_keywords" "fuse"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -748,7 +750,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SW*DPDT*"
+			(property "ki_fp_filters" "*Fuse*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -759,57 +761,22 @@
 					)
 				)
 			)
-			(symbol "SW_DPDT_x2_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_1"
+			(symbol "Fuse_0_1"
 				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.5748 2.286)
+						(xy 0 2.54) (xy 0 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -819,11 +786,11 @@
 					)
 				)
 			)
-			(symbol "SW_DPDT_x2_1_1"
+			(symbol "Fuse_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -839,9 +806,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -856,17 +823,155 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Lamp"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LA"
+				(at 0.635 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Lamp"
+				(at 0.635 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Lamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "lamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Lamp_0_1"
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy 1.778 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Lamp_1_1"
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "C"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -875,18 +980,118 @@
 					)
 				)
 			)
-			(symbol "SW_DPDT_x2_2_1"
+			(embedded_fonts no)
+		)
+		(symbol "Wiring:Block_Connector_01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.778 -0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Block_Connector_01_b"
+				(at 11.938 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic Connector Block"
+				(at 0 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Block_Connector_01_Pin_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Block_Connector_01_Pin_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -895,34 +1100,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
+					(at 0 6.35 270)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1359,10 +1546,834 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Wiring:SW_Push_Dual TRU Components"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TRU Components NO"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, symbol, four pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual TRU Components_0_1"
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 0 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual TRU Components_1_1"
+				(rectangle
+					(start -3.175 5.715)
+					(end 3.175 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wiring:TruComponents_Rotary_Switch_LAS0_x2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 5.588 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TruComponents_Rotary_Switch_LAS0_x2_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -2.286 5.08) (xy -1.778 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -2.286 -6.35) (xy -1.778 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 5.08)
+					(end -1.778 4.318)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.81 -5.588)
+					(end -1.778 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.302 -4.572)
+					(end -2.032 -4.826)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -4.572) (xy 1.778 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 4.318) (xy 2.032 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 4.318) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 5.08) (xy 3.302 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.508 5.08)
+					(end 2.54 4.318)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.508 -4.572)
+					(end 1.778 -4.826)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.508 -5.588)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -6.35) (xy 3.302 -6.35) (xy 3.81 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TruComponents_Rotary_Switch_LAS0_x2_1_1"
+				(rectangle
+					(start -4.826 6.858)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 5.08 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -6.35 180)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TruComponents_Rotary_Switch_LAS0_x2_2_1"
+				(rectangle
+					(start -4.826 6.858)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 5.08 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -6.35 180)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-VDC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-VDC"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-VDC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-VDC_0_1"
+				(polyline
+					(pts
+						(xy -1.143 3.175) (xy 1.143 3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.175)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "-VDC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
-		(start 180.975 53.34)
-		(end 197.485 70.104)
+		(start 120.015 25.4)
+		(end 136.525 42.164)
 		(stroke
 			(width 0)
 			(type default)
@@ -1373,8 +2384,8 @@
 		(uuid "0a579dac-576b-46da-b62b-5685b0e47b23")
 	)
 	(rectangle
-		(start 167.894 129.54)
-		(end 193.04 145.542)
+		(start 106.934 101.6)
+		(end 132.08 117.602)
 		(stroke
 			(width 0)
 			(type default)
@@ -1385,8 +2396,8 @@
 		(uuid "3e40a0b1-91ae-47c7-ad8c-8d065c3b17e4")
 	)
 	(rectangle
-		(start 109.22 170.18)
-		(end 146.05 186.69)
+		(start 106.68 228.6)
+		(end 143.51 245.11)
 		(stroke
 			(width 0)
 			(type default)
@@ -1397,8 +2408,8 @@
 		(uuid "4d6b6e7d-18f9-4d62-b5c6-c7f729477eec")
 	)
 	(rectangle
-		(start 86.36 71.755)
-		(end 315.214 192.024)
+		(start 95.25 51.435)
+		(end 262.255 249.555)
 		(stroke
 			(width 0)
 			(type default)
@@ -1409,8 +2420,8 @@
 		(uuid "6a5395f5-d6bf-4bf2-8ad1-5c51c45cece1")
 	)
 	(rectangle
-		(start 204.724 51.562)
-		(end 227.838 70.104)
+		(start 143.764 23.622)
+		(end 166.878 42.164)
 		(stroke
 			(width 0)
 			(type default)
@@ -1420,45 +2431,9 @@
 		)
 		(uuid "91bf4f9a-bb4a-460d-b8a6-258b57d5439a")
 	)
-	(rectangle
-		(start 99.695 127.635)
-		(end 204.47 151.13)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 255 244 0 0.25)
-		)
-		(uuid "a3612f5b-ac74-4f9a-a52c-8faa6fe7f6e6")
-	)
-	(rectangle
-		(start 217.805 126.365)
-		(end 268.605 151.13)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 255 244 0 0.2509803922)
-		)
-		(uuid "f627d6df-70bc-4ac7-933f-374b57d7634b")
-	)
-	(text "On - off - on"
-		(exclude_from_sim no)
-		(at 208.534 100.584 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "676c9cf1-2422-4485-9a6d-156ff4ee879a")
-	)
 	(text "In position 1. \nThe 12V+ will go into connector 1 of the LPS-1\nThe 12V Load will pass though to the common on the fuse block.\n\nIn position 2.\nNo 12V+ will be available to neither the LPS-1 unit nor the \ncommon of the fuse block. i.e. the system will be shut down except for the \nsolar pannel and the charging unit.\n\nIn Position 3.\nThe 12V+ will be directed to the common on the fuse block and\nthe LPS-1 will be removed from the system."
 		(exclude_from_sim no)
-		(at 236.982 103.886 0)
+		(at 187.198 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1469,7 +2444,7 @@
 	)
 	(text "Solar charging unit\n        + -    + -"
 		(exclude_from_sim no)
-		(at 170.688 137.668 0)
+		(at 109.728 109.728 0)
 		(effects
 			(font
 				(face "PT Mono")
@@ -1481,7 +2456,7 @@
 	)
 	(text "Lamp 11.2W"
 		(exclude_from_sim no)
-		(at 298.45 125.222 0)
+		(at 278.13 89.662 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1491,7 +2466,7 @@
 	)
 	(text "Panel"
 		(exclude_from_sim no)
-		(at 125.222 77.47 0)
+		(at 99.822 49.53 0)
 		(effects
 			(font
 				(face "Arial")
@@ -1502,144 +2477,122 @@
 		(uuid "fa39b2b1-9f67-484d-8a00-2e89e12e7e07")
 	)
 	(junction
-		(at 215.9 107.95)
+		(at 229.87 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5a4ccad-6bb1-4a56-9c5d-1988004a7900")
+		(uuid "91b5021d-5f07-4981-b9bb-812363b48e43")
+	)
+	(junction
+		(at 181.61 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae48b569-7d2f-47d5-9062-886e5a8b0133")
+	)
+	(junction
+		(at 204.47 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d176339b-7310-4764-86ae-1c3c1f2406b2")
 	)
 	(no_connect
-		(at 129.54 146.05)
-		(uuid "07e823d5-2d86-4ad4-af08-11c25ca75212")
+		(at 227.33 127)
+		(uuid "130bc572-228d-450f-8923-e0b92655ce9a")
 	)
 	(no_connect
-		(at 215.9 102.87)
-		(uuid "0a165631-888b-4ed2-9d3c-6bae209159a8")
+		(at 121.92 182.88)
+		(uuid "3b79017e-1ec5-4267-b57a-9af1bc64d73f")
 	)
 	(no_connect
-		(at 132.08 133.35)
-		(uuid "1d1a2ae3-fe99-4d7c-bada-4d66d233115e")
+		(at 234.95 139.7)
+		(uuid "536fd633-30f5-4436-94b5-043fd44d036e")
 	)
 	(no_connect
-		(at 262.89 133.35)
-		(uuid "272dbfe6-dcf0-43b3-ac86-cad5e6d8797e")
+		(at 116.84 170.18)
+		(uuid "5d6fb88a-38f6-4b1b-951c-6f7a05b9c2d2")
 	)
 	(no_connect
-		(at 127 146.05)
-		(uuid "3c1e8f4e-8325-4faa-a46c-6d0eb4622758")
+		(at 114.3 182.88)
+		(uuid "6b9ec668-dcb9-4334-b031-d1f803a2bd55")
 	)
 	(no_connect
-		(at 119.38 157.48)
-		(uuid "3f90cc77-3329-4e8a-88d9-f6735529c03e")
+		(at 116.84 182.88)
+		(uuid "86651070-1b22-43ca-aeca-a1bd4f659228")
 	)
 	(no_connect
-		(at 130.81 157.48)
-		(uuid "56a88a00-b3c2-4270-bd16-cfae6d8edf2a")
-	)
-	(no_connect
-		(at 255.27 146.05)
-		(uuid "58d74053-862d-4d8d-957e-c83cf49c550a")
-	)
-	(no_connect
-		(at 228.6 128.27)
-		(uuid "8472f63d-da29-4730-94a6-a77429dbcdfc")
-	)
-	(no_connect
-		(at 257.81 146.05)
-		(uuid "87bc98c4-0cb0-4355-8425-8bb03b2d90ba")
-	)
-	(no_connect
-		(at 132.08 146.05)
-		(uuid "8be67fa2-9506-4a93-a0c9-727d7bbe73b5")
-	)
-	(no_connect
-		(at 107.95 115.57)
-		(uuid "9568d12c-e9ce-4426-b370-148e1a028d1b")
-	)
-	(no_connect
-		(at 236.22 128.27)
+		(at 184.15 120.65)
 		(uuid "9cb21255-f2fb-4518-92e9-abdb848089a2")
 	)
 	(no_connect
-		(at 124.46 133.35)
-		(uuid "a616c3ec-3ef3-4413-b64e-97e1123d0ff4")
-	)
-	(no_connect
-		(at 260.35 146.05)
-		(uuid "bdc930ce-b0d5-464c-9425-0c957b718463")
-	)
-	(no_connect
-		(at 232.41 128.27)
+		(at 180.34 120.65)
 		(uuid "f3dc0052-c3eb-438a-a924-d11cfa2f6af7")
 	)
-	(bus_entry
-		(at 182.88 144.78)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4452ddfa-6c23-44bf-97a4-d0b2771f92fc")
-	)
-	(bus_entry
-		(at 180.34 144.78)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ac0639b-cc61-4d04-bb58-cdc5e11a34a3")
-	)
-	(bus_entry
-		(at 191.77 68.58)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b89f876-0c6f-4e11-9db7-51d5caa786b6")
-	)
-	(bus_entry
-		(at 189.23 68.58)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e4fe1fd-3281-47c7-a466-b79dfbcdc098")
+	(no_connect
+		(at 232.41 139.7)
+		(uuid "f53a3353-8ee9-4245-80bf-7d4bab79c121")
 	)
 	(wire
 		(pts
-			(xy 220.98 102.87) (xy 220.98 107.95)
+			(xy 130.81 121.92) (xy 119.38 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f1bb059-eb63-4eb2-a4d7-76826f610cef")
+		(uuid "0357641c-e2f4-478a-9de8-3c704a77a198")
 	)
 	(wire
 		(pts
-			(xy 177.8 143.51) (xy 177.8 154.94)
+			(xy 130.81 38.1) (xy 130.81 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12177075-fad9-4b3d-adb1-20685bfccce6")
+		(uuid "07d3b85f-9472-45ba-a0ce-904e9de5210f")
 	)
 	(wire
 		(pts
-			(xy 205.74 66.04) (xy 210.82 66.04)
+			(xy 176.53 107.95) (xy 176.53 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14714db6-4b95-43eb-abe5-3ef901828ca6")
+		(uuid "0cf79703-6b05-4a27-96d6-7f2ac1f0bceb")
 	)
 	(wire
 		(pts
-			(xy 262.89 146.05) (xy 262.89 156.21)
+			(xy 121.92 193.04) (xy 142.24 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5ed7d3-29d9-422d-84e6-8f3b98a56857")
+	)
+	(wire
+		(pts
+			(xy 181.61 93.98) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df2c6d7-35d4-46fc-9e93-24a7a7193b45")
+	)
+	(wire
+		(pts
+			(xy 219.71 161.29) (xy 219.71 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d7596a-1248-4569-aa14-fb915829697e")
+	)
+	(wire
+		(pts
+			(xy 232.41 113.03) (xy 232.41 127)
 		)
 		(stroke
 			(width 0)
@@ -1649,17 +2602,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 130.81) (xy 255.27 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1be7a60e-c997-4f76-b0ee-c179d56f082a")
-	)
-	(wire
-		(pts
-			(xy 274.32 127) (xy 290.83 127)
+			(xy 270.51 97.79) (xy 285.75 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1669,556 +2612,786 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 143.51) (xy 153.67 130.81)
+			(xy 127 208.28) (xy 127 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e209025-6143-49a8-ab29-f2a2901c4ea5")
+		(uuid "21e37a42-e84f-49b9-8b48-1a20b0579d44")
 	)
 	(wire
 		(pts
-			(xy 262.89 156.21) (xy 274.32 156.21)
+			(xy 229.87 139.7) (xy 229.87 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "223e6974-82e4-4388-80da-2a7e968f2f89")
+		(uuid "27d2826f-f979-45c6-8d60-a58744e7a959")
 	)
 	(wire
 		(pts
-			(xy 231.14 152.4) (xy 215.9 152.4)
+			(xy 241.3 127) (xy 234.95 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3388fffc-de06-41ae-8238-d4b2b9f5f686")
+		(uuid "283efd07-70de-4f8a-98d5-40147fdb3129")
 	)
 	(wire
 		(pts
-			(xy 250.19 128.27) (xy 260.35 128.27)
+			(xy 121.92 223.52) (xy 121.92 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3517063f-2e28-419d-840a-c999a20021c7")
+		(uuid "29d79724-901a-4c2e-b696-045f76d5d36f")
 	)
 	(wire
 		(pts
-			(xy 251.46 130.81) (xy 255.27 130.81)
+			(xy 215.9 186.69) (xy 215.9 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35b02eb9-76ba-41a2-9463-dc364f657d5d")
+		(uuid "2d90291a-61d4-4bba-a360-297691431c4e")
 	)
 	(wire
 		(pts
-			(xy 224.79 123.19) (xy 290.83 123.19)
+			(xy 121.92 120.65) (xy 121.92 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d6087df-7094-4ac1-b7ba-b7e40057d3f6")
+		(uuid "2f332900-9508-4193-920a-7666a56cc061")
 	)
 	(wire
 		(pts
-			(xy 218.44 66.04) (xy 218.44 92.71)
+			(xy 172.72 107.95) (xy 172.72 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43af1c7c-75e1-453b-9b9e-65e9c4ff0af0")
+		(uuid "31dd685e-5605-4b47-95e5-1910ea28e7f4")
 	)
 	(wire
 		(pts
-			(xy 121.92 167.64) (xy 121.92 168.91)
+			(xy 198.12 104.14) (xy 204.47 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4724bdeb-687c-47b7-9f17-3c7a82fc2a20")
-	)
-	(bus
-		(pts
-			(xy 195.58 71.12) (xy 195.58 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51b9a35f-3d76-4f73-95f6-bcd58056c04b")
+		(uuid "3a793cfb-e29d-4d84-95e6-7e5ac15d1adc")
 	)
 	(wire
 		(pts
-			(xy 129.54 130.81) (xy 129.54 133.35)
+			(xy 121.92 198.12) (xy 121.92 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5266aa3b-80b1-40f3-adb7-7cadc93ee834")
+		(uuid "3be22246-18db-49b8-8777-8cb9442917ad")
 	)
 	(wire
 		(pts
-			(xy 274.32 156.21) (xy 274.32 127)
+			(xy 204.47 104.14) (xy 207.01 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52fe3011-8433-48af-9f62-429ec7ab101d")
+		(uuid "3c22340a-cc37-4645-8911-a6af4313fd1c")
 	)
 	(wire
 		(pts
-			(xy 180.34 143.51) (xy 180.34 144.78)
+			(xy 227.33 139.7) (xy 227.33 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5459849c-93ec-4155-844a-7cfa84b588f2")
+		(uuid "3fbec6db-307d-49c7-a3dc-c899a813338e")
 	)
 	(wire
 		(pts
-			(xy 127 120.65) (xy 127 133.35)
+			(xy 154.94 63.5) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54e817c4-c7fd-4193-bc76-ab297e0e2e5c")
+		(uuid "424b7f8d-1f18-4867-8a04-a3273b881aa7")
 	)
 	(wire
 		(pts
-			(xy 153.67 130.81) (xy 129.54 130.81)
+			(xy 179.07 140.97) (xy 179.07 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59a2d276-c00d-41a0-b634-6d1bd785ff25")
-	)
-	(bus
-		(pts
-			(xy 191.77 71.12) (xy 194.31 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64837257-452e-4fcd-886f-02aa8263eb9a")
+		(uuid "449fae20-597e-4e62-8400-42ee227b53dc")
 	)
 	(wire
 		(pts
-			(xy 208.28 118.11) (xy 208.28 120.65)
+			(xy 116.84 115.57) (xy 116.84 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "652f5193-5f60-4394-b666-77768aa6fa0c")
+		(uuid "49e5d867-5dd7-4017-b2d2-be08101b7c40")
 	)
 	(wire
 		(pts
-			(xy 231.14 148.59) (xy 231.14 152.4)
+			(xy 181.61 82.55) (xy 191.77 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a480e5f-1151-4c29-9ae4-00c4f6102ec5")
+		(uuid "4df449f8-bb73-4394-a5ca-a51d8c246f6c")
 	)
 	(wire
 		(pts
-			(xy 205.74 107.95) (xy 205.74 66.04)
+			(xy 152.4 38.1) (xy 152.4 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ae2451d-dc0e-4cc8-b170-dfa8a2867f97")
+		(uuid "5461c824-28c5-4418-b694-16537786b018")
 	)
 	(wire
 		(pts
-			(xy 127 120.65) (xy 208.28 120.65)
+			(xy 114.3 115.57) (xy 114.3 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b722e69-2b2d-4b89-9f49-1305c294a8af")
+		(uuid "57c34987-f865-4c21-af41-28b592821c6a")
 	)
 	(wire
 		(pts
-			(xy 257.81 124.46) (xy 257.81 133.35)
+			(xy 124.46 231.14) (xy 124.46 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bfcebe1-e607-4139-91b4-2b5dc536a68b")
+		(uuid "5a6dac4f-b647-442b-a725-c7d67ca28983")
 	)
 	(wire
 		(pts
-			(xy 224.79 123.19) (xy 224.79 128.27)
+			(xy 204.47 115.57) (xy 204.47 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "718c19c4-829d-47f0-8189-441a0343e2f2")
+		(uuid "5e207e87-0e58-4768-93cf-4c3c5b4d83b1")
 	)
 	(wire
 		(pts
-			(xy 210.82 107.95) (xy 215.9 107.95)
+			(xy 119.38 121.92) (xy 119.38 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "719cdd34-5ae6-4c5a-a658-a6eb8d1110c9")
+		(uuid "619845d7-5c71-4154-9c02-f34356520468")
 	)
 	(wire
 		(pts
-			(xy 189.23 66.04) (xy 189.23 68.58)
+			(xy 114.3 138.43) (xy 114.3 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "825b3dbb-02b5-42d5-ace7-4b57418cf334")
+		(uuid "62364b96-ffa5-4787-ae0f-5d9ac6898f2f")
 	)
 	(wire
 		(pts
-			(xy 260.35 128.27) (xy 260.35 133.35)
+			(xy 128.27 38.1) (xy 128.27 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b50e6af-f1dc-4dcf-ad4b-8cf40023e9ca")
+		(uuid "64582bf0-5537-4897-9bc4-a5bd3300925a")
 	)
 	(wire
 		(pts
-			(xy 215.9 107.95) (xy 215.9 152.4)
+			(xy 149.86 38.1) (xy 149.86 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8bf6d4a8-6732-40e5-adcc-9ef0afcadeaa")
+		(uuid "69062d3e-d18c-47cb-a255-61871e0cd6de")
 	)
 	(wire
 		(pts
-			(xy 153.67 143.51) (xy 175.26 143.51)
+			(xy 154.94 38.1) (xy 154.94 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c90c23a-7deb-450e-b806-dbe123a19d82")
+		(uuid "6bd48e39-8839-4e9a-bb88-63b5493a9022")
 	)
 	(wire
 		(pts
-			(xy 251.46 157.48) (xy 251.46 130.81)
+			(xy 226.06 104.14) (xy 229.87 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9df4dbb0-fad2-4ec9-82aa-d18e78c5fd34")
+		(uuid "737f0af2-7aed-41d1-8f1c-05b9013d57e7")
 	)
 	(wire
 		(pts
-			(xy 213.36 66.04) (xy 213.36 124.46)
+			(xy 154.94 82.55) (xy 158.75 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3d23a6d-3e8f-461d-a401-b8933384ecc7")
+		(uuid "78ec07ba-e8cc-4751-8e50-533d53604a16")
 	)
 	(wire
 		(pts
-			(xy 135.89 157.48) (xy 251.46 157.48)
+			(xy 127 198.12) (xy 153.67 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9d10fee-78c7-4763-be45-1661e073c394")
-	)
-	(bus
-		(pts
-			(xy 182.88 147.32) (xy 185.42 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba96b098-a96e-4ee8-910d-8b7b79183a52")
+		(uuid "7b026ecc-a8cd-4e3a-a2ee-e01e3feea090")
 	)
 	(wire
 		(pts
-			(xy 133.35 168.91) (xy 127 168.91)
+			(xy 215.9 193.04) (xy 223.52 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bec51f4b-15e0-4c35-985b-90ab747fa9a4")
+		(uuid "7eba7b54-b808-4d74-a27d-cb34aad14d37")
 	)
 	(wire
 		(pts
-			(xy 124.46 168.91) (xy 124.46 172.72)
+			(xy 241.3 101.6) (xy 241.3 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2c752d9-65fe-470d-bd0c-5245da5cfbea")
+		(uuid "806730d0-f8be-4dda-97c6-5dfde5c054de")
 	)
 	(wire
 		(pts
-			(xy 250.19 154.94) (xy 250.19 128.27)
+			(xy 226.06 115.57) (xy 229.87 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd802411-f727-4a37-af5a-4f8fd968ac6e")
+		(uuid "8226a40f-cc07-449b-8ff9-2309b6bb656b")
 	)
 	(wire
 		(pts
-			(xy 127 168.91) (xy 127 172.72)
+			(xy 119.38 182.88) (xy 119.38 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d72cddcc-7bf5-497c-866d-0b6cb7ddc21b")
+		(uuid "827fcac5-f0a9-444c-9e14-9264844436ee")
 	)
 	(wire
 		(pts
-			(xy 182.88 143.51) (xy 182.88 144.78)
+			(xy 158.75 93.98) (xy 146.05 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddc94ba1-116b-476b-b53a-98b1147cfe14")
-	)
-	(bus
-		(pts
-			(xy 194.31 71.12) (xy 195.58 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de286cdd-b7f2-4c74-8308-620f64ce5c81")
+		(uuid "84ea9259-0e95-45e3-aa45-d1ea74e11b1a")
 	)
 	(wire
 		(pts
-			(xy 121.92 168.91) (xy 124.46 168.91)
+			(xy 121.92 166.37) (xy 121.92 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de6ea5eb-8cb0-41e6-8870-fd63daa05747")
+		(uuid "88baad3d-bbea-429b-9111-5d66e842700f")
 	)
 	(wire
 		(pts
-			(xy 213.36 124.46) (xy 257.81 124.46)
+			(xy 128.27 63.5) (xy 128.27 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e66c6742-a697-4bae-94ad-63649b523f46")
+		(uuid "9180522c-ec58-4603-8a3f-8ce7edab9334")
 	)
 	(wire
 		(pts
-			(xy 124.46 146.05) (xy 124.46 157.48)
+			(xy 121.92 208.28) (xy 121.92 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8ab774f-d0af-4213-970e-0b030c93c4dd")
+		(uuid "93ac1f1b-5ff2-40a2-be5b-faeb1ca29735")
 	)
 	(wire
 		(pts
-			(xy 220.98 107.95) (xy 215.9 107.95)
+			(xy 114.3 154.94) (xy 114.3 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9144603-ab72-42be-9dab-840d465da9d2")
-	)
-	(bus
-		(pts
-			(xy 185.42 147.32) (xy 195.58 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec4dcd79-4b6e-49b4-beee-c3dd4ba10297")
+		(uuid "991369bc-de8c-4fc8-afe4-2e0f2e5ff3a9")
 	)
 	(wire
 		(pts
-			(xy 133.35 168.91) (xy 133.35 167.64)
+			(xy 177.8 93.98) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1726414-a1b5-41c9-b409-1cc6cb7f4f6d")
+		(uuid "9a228a74-55dc-4025-b121-0603bf196f53")
 	)
 	(wire
 		(pts
-			(xy 215.9 66.04) (xy 218.44 66.04)
+			(xy 229.87 104.14) (xy 229.87 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f598c11b-3dc2-4c90-9236-e8e2da36133f")
+		(uuid "9dc0bc7a-cfd2-4efb-a792-9be2315d7390")
 	)
 	(wire
 		(pts
-			(xy 191.77 66.04) (xy 191.77 68.58)
+			(xy 121.92 166.37) (xy 134.62 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f99ff08d-4eac-4438-9564-ae6bc25ec59b")
+		(uuid "a1112714-7f05-4ea6-a8a0-e70e7bb559bc")
 	)
 	(wire
 		(pts
-			(xy 177.8 154.94) (xy 250.19 154.94)
+			(xy 119.38 162.56) (xy 134.62 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffafc467-b061-4c01-8b45-19a429fbb0fb")
+		(uuid "a6cac28c-0116-4e59-af24-88bf05c03c74")
 	)
-	(label "LOAD"
-		(at 160.02 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 270.51 87.63) (xy 285.75 87.63)
 		)
-		(uuid "0e62f57e-2d73-4bad-abd6-d841d33e7fbc")
-	)
-	(label "BAT-"
-		(at 138.43 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "30efd271-bd41-43c3-b383-25d390e7ef6c")
+		(uuid "aa4af2fc-2f3d-46ea-b423-8ecc06fab689")
 	)
-	(label "SP+"
-		(at 189.23 68.58 180)
+	(wire
+		(pts
+			(xy 130.81 63.5) (xy 130.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2e99d1-c852-457e-a75b-021cfb2cac31")
+	)
+	(wire
+		(pts
+			(xy 124.46 224.79) (xy 127 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff5c622-a548-436e-8a28-147f78d1dfcb")
+	)
+	(wire
+		(pts
+			(xy 127 224.79) (xy 127 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca525643-bc6e-47a5-a5b0-284e5f3eaae6")
+	)
+	(wire
+		(pts
+			(xy 229.87 115.57) (xy 229.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd39ee91-2c2e-4278-93bf-a9c13d1e940a")
+	)
+	(wire
+		(pts
+			(xy 116.84 138.43) (xy 116.84 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0158a3-4424-4d61-928a-8cb7c1d7377b")
+	)
+	(wire
+		(pts
+			(xy 128.27 120.65) (xy 121.92 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28d71f8-8e6a-4620-9b14-56157918b84b")
+	)
+	(wire
+		(pts
+			(xy 219.71 189.23) (xy 223.52 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50b4305-5053-4583-ac5f-a4b8e16c34d9")
+	)
+	(wire
+		(pts
+			(xy 215.9 162.56) (xy 215.9 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53df3c8-c4c3-4bc2-9737-efe88383e6e5")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ea1752-5655-4ffb-92e8-0f5151648d23")
+	)
+	(wire
+		(pts
+			(xy 179.07 170.18) (xy 179.07 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0dbae20-59b8-4d8c-9de7-02ed0fb6a011")
+	)
+	(wire
+		(pts
+			(xy 119.38 162.56) (xy 119.38 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f023fbf4-ef04-425f-902a-d0b6a9be34d9")
+	)
+	(wire
+		(pts
+			(xy 224.79 88.9) (xy 241.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76748d8-8f9b-41ec-a7d4-d430e6ddc5e0")
+	)
+	(wire
+		(pts
+			(xy 241.3 91.44) (xy 241.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7761fce-c5e0-4757-b923-21e5a184344f")
+	)
+	(wire
+		(pts
+			(xy 207.01 115.57) (xy 204.47 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f943e83f-eea9-43fc-b2e5-dd44d3d9746e")
+	)
+	(wire
+		(pts
+			(xy 219.71 186.69) (xy 219.71 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7db10f-664e-4c5e-9fd6-32136bdc0b15")
+	)
+	(label "BATT_DIRECT"
+		(at 134.62 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3473e637-9084-4f0b-8ef3-1b13172c6ad3")
+		(uuid "00920b73-b6c2-47e6-a097-5d9118ac8a74")
+	)
+	(label "SOL_CHRG+"
+		(at 130.81 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0890adab-5064-4d08-8acc-ca470f853ca0")
+	)
+	(label "MON_LOAD"
+		(at 154.94 48.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f252317-7e29-456e-814e-bd09e61fe5ba")
+	)
+	(label "BATT_DIRECT"
+		(at 146.05 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12f8aee7-e134-45e7-83f3-9da3c8eff861")
+	)
+	(label "PWR-COMM"
+		(at 179.07 156.21 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2850d231-8ce4-45c0-bbe9-556c6586ed77")
+	)
+	(label "BATT+"
+		(at 134.62 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "294aa61a-2318-4a80-bebd-c09159149499")
+	)
+	(label "SYSTEM_PWR"
+		(at 179.07 184.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b3130b3-008b-4a9c-a153-80c931e2dd8b")
+	)
+	(label "BATT+"
+		(at 142.24 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b4a1ffa-e666-4b16-98a9-7e064607f952")
 	)
 	(label "Lamp +ve"
-		(at 290.83 123.19 180)
+		(at 270.51 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "512ec177-5d81-4240-927a-f2558a37502c")
 	)
-	(label "SP-"
-		(at 182.88 144.78 0)
+	(label "Lamp +ve"
+		(at 223.52 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "594466c5-4c20-4bdd-b3e3-ea7c5eb25edc")
+		(uuid "5f50e8b9-15cf-4a9f-96f1-7cbc44438d2c")
 	)
-	(label "SP+"
-		(at 180.34 144.78 180)
+	(label "SOL_CHRG-"
+		(at 128.27 78.74 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "79de81a1-88ea-423d-9a8c-267aa2ef8adc")
+		(uuid "624b29f2-9fbe-46df-8e77-49f9e32bac71")
 	)
 	(label "Lamp -Ve"
-		(at 290.83 127 180)
+		(at 270.51 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7a9dcf8c-7e83-4f44-ab14-d0ce4be08676")
 	)
-	(label "FUSE+"
-		(at 215.9 133.35 90)
+	(label "Lamp -Ve A"
+		(at 232.41 113.03 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "82c891b0-18b1-4365-93e3-85b2492af841")
+		(uuid "845313af-7274-4b59-828d-0c12560e1a95")
 	)
-	(label "SP-"
-		(at 191.77 68.58 0)
+	(label "MON-"
+		(at 152.4 48.26 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "927e0ea7-3bd3-48ef-ae0c-74d9c57221d5")
+		(uuid "84d02cf0-bd13-4dfd-b441-ad4300dc2e55")
 	)
-	(label "LPS_1_GND"
-		(at 213.36 91.44 90)
+	(label "MON+"
+		(at 149.86 48.26 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a6377ab5-cebf-4d24-857b-8b7d5b8db40e")
+		(uuid "8f7cd53f-9883-4b43-970e-ba89a4e222a0")
+	)
+	(label "MON-"
+		(at 229.87 149.86 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "980b0230-4884-459d-931b-f7028f5656b2")
+	)
+	(label "Socket 12V"
+		(at 176.53 107.95 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99100d8a-4b69-4a0c-8a4a-6cde5f0763e8")
+	)
+	(label "A Lamp +ve"
+		(at 215.9 162.56 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2a96828-ba79-47a5-9318-c881ab0b5cef")
+	)
+	(label "MON+"
+		(at 119.38 189.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a69b5923-7562-4180-abe8-5025cb239517")
+	)
+	(label "CHRG-"
+		(at 227.33 149.86 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abb038c7-6be2-48f5-a8c3-39d949100a2c")
+	)
+	(label "SOL+"
+		(at 130.81 44.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad1b0bcf-5cb7-4518-b39a-2d1e1a3a5744")
+	)
+	(label "LOAD+"
+		(at 154.94 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3912d09-35ca-4ec3-a17d-8e1fd865b57d")
 	)
 	(label "CHRG+"
-		(at 158.75 143.51 0)
+		(at 114.3 144.78 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2227,18 +3400,38 @@
 		)
 		(uuid "c236897a-5d6f-4643-8781-037581088a4d")
 	)
-	(label "LPS_1_LOAD-"
-		(at 218.44 87.63 90)
+	(label "Lamp -Ve A"
+		(at 219.71 161.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2484a79-511a-454f-8cc5-538b6670fd71")
+	)
+	(label "Socket 12V"
+		(at 224.79 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c72d8e5c-70e1-4f41-b3c1-04c4faeb53b3")
+		(uuid "c761ccb9-00e8-4edf-9f9c-fd188d55dcf6")
+	)
+	(label "A Lamp +ve"
+		(at 172.72 107.95 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc0b7c4a-33f0-48cc-afbc-b79ee0f5c541")
 	)
 	(label "CHRG-"
-		(at 181.61 154.94 0)
+		(at 116.84 144.78 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2247,30 +3440,39 @@
 		)
 		(uuid "cea37e9b-902f-47a1-96e2-383b86fd1bb7")
 	)
-	(label "LPS_1_LOAD+"
-		(at 205.74 86.36 90)
+	(label "Lamp -Ve"
+		(at 223.52 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f860e307-2cde-418d-85a1-ffb7dddfd077")
+		(uuid "d283acfa-ba6f-4b27-9513-c5e76af11883")
 	)
-	(label "BAT+"
-		(at 124.46 156.21 90)
+	(label "SOL-"
+		(at 128.27 44.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ff9eeee4-001c-4346-a8b6-e1914c1a2fe7")
+		(uuid "df9ff630-dd7d-4cad-abf3-90dde1ab0079")
+	)
+	(label "SYSTEM_PWR"
+		(at 191.77 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e989726f-e2c0-4d4c-b35b-d886e7479ebf")
 	)
 	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 121.92 162.56 270)
-		(mirror x)
+		(lib_id "Wiring:SW_Push_Dual TRU Components")
+		(at 124.46 203.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2278,9 +3480,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1dc08deb-b830-49af-96f6-27c24eff65b2")
-		(property "Reference" "SW1"
-			(at 117.348 161.3478 90)
+		(fields_autoplaced yes)
+		(uuid "0f8ce856-81fd-4f5a-91d6-f448539cff50")
+		(property "Reference" "SW2"
+			(at 129.54 201.9878 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2290,8 +3493,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Battery Kill Switch"
-			(at 117.348 163.7721 90)
+		(property "Value" "TRU Components NO"
+			(at 129.54 204.4121 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2301,8 +3504,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Wiring:SW_101_TC-R13-244D-02"
-			(at 121.92 162.56 0)
+		(property "Footprint" "Wiring:TruComponents_SW_LAS0_1"
+			(at 116.84 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2313,7 +3516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 162.56 0)
+			(at 124.46 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2323,8 +3526,8 @@
 				)
 			)
 		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 121.92 162.56 0)
+		(property "Description" "Push button switch, generic, symbol, four pins"
+			(at 124.46 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2334,8 +3537,9 @@
 				)
 			)
 		)
-		(property "Purpose" ""
-			(at 121.92 162.56 0)
+		(property "MPN" ""
+			(at 124.46 203.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2344,46 +3548,62 @@
 				)
 			)
 		)
-		(pin "6"
-			(uuid "8e46ad4e-0a3b-40ea-bb8f-edadc3a39feb")
+		(property "Link" ""
+			(at 124.46 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "2"
-			(uuid "e9ccdbd1-00d9-4211-a0a9-b0cf3dba5795")
-		)
-		(pin "5"
-			(uuid "b6ca4704-9ccb-42bb-9ff4-64941bf2e825")
+		(property "Comp_Name" ""
+			(at 124.46 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "37779dc9-d85b-4df7-af0a-053f93e6d1fa")
+			(uuid "d7bac9a1-bbc1-48d0-b539-b6dc597b739f")
+		)
+		(pin "2"
+			(uuid "03ceb8ee-134d-4363-acf6-e9c126d02513")
 		)
 		(pin "4"
-			(uuid "58122d02-f7d6-4726-ac5f-ca33eaede9cc")
+			(uuid "59401426-1a11-49ea-9470-b684306dd708")
 		)
 		(pin "1"
-			(uuid "5be55a1b-d497-4778-9cc7-61c67c414fac")
+			(uuid "b931b700-0d02-43ca-b2ea-0fad092968e6")
 		)
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 262.89 139.7 0)
-		(unit 4)
+		(lib_id "Device:Lamp")
+		(at 285.75 92.71 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "41ef55c4-099e-4094-bd33-c5a7147ab72f")
-		(property "Reference" "J7"
-			(at 261.874 150.622 90)
+		(fields_autoplaced yes)
+		(uuid "1631d73f-427e-4ca7-924d-42b960d5c63c")
+		(property "Reference" "LA1"
+			(at 288.925 91.4978 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2393,8 +3613,171 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Block_Connector_04_b"
-			(at 264.541 140.9121 0)
+		(property "Value" "Lamp"
+			(at 288.925 93.9221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 285.75 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Lamp"
+			(at 285.75 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "699a79f8-24e4-478d-9c04-08f16de03ab3")
+		)
+		(pin "2"
+			(uuid "0cc72601-2ae3-41bd-bb30-4c598b78defd")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "LA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 215.9 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "286a0519-47db-4715-bd53-95ed75ab193b")
+		(property "Reference" "J13"
+			(at 215.9 181.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_01_b"
+			(at 217.551 181.5521 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 215.9 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 215.9 171.704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9971b0d-dad3-4c5b-bdaa-3c0efda50ecb")
+		)
+		(pin "2"
+			(uuid "38f759ca-d546-4813-ac84-1afa70e710de")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 234.95 133.35 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41ef55c4-099e-4094-bd33-c5a7147ab72f")
+		(property "Reference" "J10"
+			(at 234.95 135.128 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND Block"
+			(at 236.601 134.5621 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,7 +3789,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 262.89 128.778 0)
+			(at 234.95 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +3800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 139.7 0)
+			(at 234.95 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,7 +3811,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 262.89 131.064 0)
+			(at 234.95 124.714 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2439,7 +3822,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 262.89 139.7 0)
+			(at 234.95 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2450,7 +3833,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 262.89 139.7 0)
+			(at 234.95 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2461,7 +3844,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 262.89 139.7 0)
+			(at 234.95 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2497,15 +3880,15 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J7")
+					(reference "J10")
 					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 208.28 113.03 90)
+		(lib_id "power:-VDC")
+		(at 153.67 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2513,31 +3896,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "45a240e3-020b-4658-82aa-0e17ca34599f")
-		(property "Reference" "SW2"
-			(at 202.692 111.252 0)
+		(fields_autoplaced yes)
+		(uuid "4590aab9-d871-48c5-9a2c-a076df2654f5")
+		(property "Reference" "#PWR02"
+			(at 153.67 200.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Load Monitoring Control"
-			(at 200.406 93.218 0)
+		(property "Value" "-VDC"
+			(at 153.67 191.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Wiring:SW_101_TC-R13-244D-02"
-			(at 208.28 113.03 0)
+		(property "Footprint" ""
+			(at 153.67 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +3931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 113.03 0)
+			(at 153.67 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2558,8 +3941,8 @@
 				)
 			)
 		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 208.28 113.03 0)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 153.67 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2568,262 +3951,22 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "c0ca9115-9613-497d-b76e-a87caf9974a4")
 		)
 		(pin "1"
-			(uuid "77647bae-5cc8-4b68-8f8c-92fb9394b7ad")
-		)
-		(pin "6"
-			(uuid "04e505e8-ad98-4857-9052-81197c86b784")
-		)
-		(pin "4"
-			(uuid "8b3f5b5e-8a9a-4af5-87bd-10c5aa9684e4")
-		)
-		(pin "3"
-			(uuid "a0690222-9768-4f55-84a5-fc8c7ea13990")
-		)
-		(pin "5"
-			(uuid "1cdaab53-8f1f-4dbe-a263-9f20893e229b")
+			(uuid "fe675c9b-2420-445d-a7ed-67d87e276f78")
 		)
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "SW2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 127 139.7 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4829b3d3-d60c-4174-80ee-6a97a58ccdff")
-		(property "Reference" "J1"
-			(at 125.984 150.114 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Block_Connector_04_b"
-			(at 103.124 137.414 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 127 128.778 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic Connector Block"
-			(at 127 131.064 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 127 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 127 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comp_Name" ""
-			(at 127 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "5f514e78-6ecf-472f-bb35-d9e097daa05c")
-		)
-		(pin "2"
-			(uuid "24694110-3786-405b-acb6-f6db46a2f9cd")
-		)
-		(pin "1"
-			(uuid "9feb0423-ac0d-44b3-9c49-acad3294eca1")
-		)
-		(pin "7"
-			(uuid "4a31317e-9f26-4bf4-b1e3-6abb3ab491c8")
-		)
-		(pin "6"
-			(uuid "e243d8a1-5f7c-4646-b8c5-42d9bf5aa4a6")
-		)
-		(pin "4"
-			(uuid "c1c274f6-1002-4fd7-a9cd-1dc5e2d66ab1")
-		)
-		(pin "8"
-			(uuid "d0e97b46-490e-4232-b4de-a8d37bd38cac")
-		)
-		(pin "5"
-			(uuid "50d280d7-4247-449b-b7a5-0009cc7ac949")
-		)
-		(instances
-			(project "LPS-1 Wiring"
-				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 218.44 97.79 270)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4a933560-826e-462a-95d1-75c002e39f8c")
-		(property "Reference" "SW2"
-			(at 224.028 96.012 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Load Monitoring Control"
-			(at 226.06 77.978 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Wiring:SW_101_TC-R13-244D-02"
-			(at 218.44 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 218.44 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c0ca9115-9613-497d-b76e-a87caf9974a5")
-		)
-		(pin "1"
-			(uuid "77647bae-5cc8-4b68-8f8c-92fb9394b7ae")
-		)
-		(pin "6"
-			(uuid "04e505e8-ad98-4857-9052-81197c86b785")
-		)
-		(pin "4"
-			(uuid "8b3f5b5e-8a9a-4af5-87bd-10c5aa9684e5")
-		)
-		(pin "3"
-			(uuid "a0690222-9768-4f55-84a5-fc8c7ea13991")
-		)
-		(pin "5"
-			(uuid "1cdaab53-8f1f-4dbe-a263-9f20893e229c")
-		)
-		(instances
-			(project "LPS-1 Wiring"
-				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "SW2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 177.8 138.43 90)
+		(at 116.84 110.49 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2833,8 +3976,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51166455-83fd-4867-88b5-eaaec79c63d9")
-		(property "Reference" "J3"
-			(at 178.816 130.048 90)
+		(property "Reference" "J9"
+			(at 104.902 102.362 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2844,7 +3987,7 @@
 			)
 		)
 		(property "Value" "Solar charging unit"
-			(at 179.832 132.08 90)
+			(at 118.872 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2854,7 +3997,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:H-TRONIC Solar-Lageregler"
-			(at 177.8 138.43 0)
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2865,7 +4008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 138.43 0)
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,7 +4019,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 177.8 138.43 0)
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2887,7 +4030,39 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 177.8 138.43 0)
+			(at 116.84 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 116.84 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 116.84 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 116.84 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2911,129 +4086,25 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J3")
+					(reference "J9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 133.35 162.56 270)
-		(mirror x)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ca02ec2-4cb0-4933-a3ed-18d9a5f0211d")
-		(property "Reference" "SW1"
-			(at 143.256 162.306 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Battery Kill Switch"
-			(at 156.21 160.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Wiring:SW_101_TC-R13-244D-02"
-			(at 133.35 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 133.35 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" ""
-			(at 133.35 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "8e46ad4e-0a3b-40ea-bb8f-edadc3a39fec")
-		)
-		(pin "2"
-			(uuid "e9ccdbd1-00d9-4211-a0a9-b0cf3dba5796")
-		)
-		(pin "5"
-			(uuid "b6ca4704-9ccb-42bb-9ff4-64941bf2e826")
-		)
-		(pin "3"
-			(uuid "37779dc9-d85b-4df7-af0a-053f93e6d1fb")
-		)
-		(pin "4"
-			(uuid "58122d02-f7d6-4726-ac5f-ca33eaede9cd")
-		)
-		(pin "1"
-			(uuid "5be55a1b-d497-4778-9cc7-61c67c414fad")
-		)
-		(instances
-			(project "LPS-1 Wiring"
-				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "SW1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 124.46 139.7 0)
-		(unit 1)
+		(at 119.38 176.53 0)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6ea24af2-0734-4ded-979b-b30627b8117e")
-		(property "Reference" "J1"
-			(at 123.444 150.114 90)
+		(uuid "55702ba9-f7a3-4584-8a51-3159ee22aa31")
+		(property "Reference" "J22"
+			(at 119.38 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3043,8 +4114,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Block_Connector_04_b"
-			(at 100.584 137.414 0)
+		(property "Value" "Pwr Block"
+			(at 121.031 177.7421 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3055,7 +4127,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 124.46 128.778 0)
+			(at 119.38 165.608 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3066,7 +4138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 139.7 0)
+			(at 119.38 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3077,7 +4149,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 124.46 131.064 0)
+			(at 119.38 167.894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3087,52 +4159,84 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "5f514e78-6ecf-472f-bb35-d9e097daa05c")
+		(property "MPN" ""
+			(at 119.38 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "2"
-			(uuid "24694110-3786-405b-acb6-f6db46a2f9cd")
+		(property "Link" ""
+			(at 119.38 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "1"
-			(uuid "e714c149-feac-4cf4-a63a-e298f81b21b7")
-		)
-		(pin "7"
-			(uuid "4a31317e-9f26-4bf4-b1e3-6abb3ab491c8")
-		)
-		(pin "6"
-			(uuid "e243d8a1-5f7c-4646-b8c5-42d9bf5aa4a6")
-		)
-		(pin "4"
-			(uuid "c1c274f6-1002-4fd7-a9cd-1dc5e2d66ab1")
-		)
-		(pin "8"
-			(uuid "0bb171a8-fb92-4b1e-a8f1-9b15fb22d616")
+		(property "Comp_Name" ""
+			(at 119.38 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "5"
-			(uuid "50d280d7-4247-449b-b7a5-0009cc7ac949")
+			(uuid "454a0084-b448-4697-a8ea-eb64e719576b")
+		)
+		(pin "4"
+			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14529")
+		)
+		(pin "1"
+			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2036")
+		)
+		(pin "8"
+			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1f")
+		)
+		(pin "3"
+			(uuid "07880202-2a05-42ad-95f3-0c88886001b2")
+		)
+		(pin "7"
+			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868f")
+		)
+		(pin "2"
+			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53e02")
+		)
+		(pin "6"
+			(uuid "0854b73c-8f51-44bb-a7bd-222d6d21bceb")
 		)
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J1")
-					(unit 1)
+					(reference "J22")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Wiring:FUSE_BLOCK_TRU_COMPONENTS-TC-9070396")
-		(at 224.79 128.27 0)
-		(unit 1)
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 116.84 176.53 0)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8017e5a9-c611-4ced-946b-4476a9b396d1")
-		(property "Reference" "J6"
-			(at 243.84 144.78 0)
+		(uuid "5c7524c5-abe4-485d-9fb2-5351876e4b6b")
+		(property "Reference" "J22"
+			(at 116.84 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3142,8 +4246,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse Block"
-			(at 220.472 137.668 0)
+		(property "Value" "Pwr Block"
+			(at 118.491 177.7421 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3153,8 +4258,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Wiring:FUSE_BLOCK_TRU_COMPONENTS-TC-9070396"
-			(at 225.298 137.668 0)
+		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
+			(at 116.84 165.608 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3165,7 +4270,514 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 225.298 137.668 0)
+			(at 116.84 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 116.84 167.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 116.84 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 116.84 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 116.84 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "454a0084-b448-4697-a8ea-eb64e7195769")
+		)
+		(pin "4"
+			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14527")
+		)
+		(pin "1"
+			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2034")
+		)
+		(pin "8"
+			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1d")
+		)
+		(pin "3"
+			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8df")
+		)
+		(pin "7"
+			(uuid "c70575f2-aae9-4e59-83ee-fc95c3a0802c")
+		)
+		(pin "2"
+			(uuid "e8993471-f0e2-4eca-9f29-344c41af7dc6")
+		)
+		(pin "6"
+			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa07")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J22")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 154.94 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e8d2ad6-fb23-40cf-b4a4-2e7a412cdcf9")
+		(property "Reference" "J7"
+			(at 154.94 55.626 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_01_b"
+			(at 153.289 55.9379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 154.94 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 154.94 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46492a5f-8376-4ace-8a10-31b59984b8f7")
+		)
+		(pin "2"
+			(uuid "1e3ffd5f-2382-4c4d-9030-1f960a49f252")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_04_Pin_B")
+		(at 114.3 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60e6e9b4-bce2-4008-b77a-3bdf7c8916a3")
+		(property "Reference" "J22"
+			(at 114.3 178.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pwr Block"
+			(at 123.444 174.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
+			(at 114.3 165.608 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 114.3 167.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 114.3 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 114.3 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "454a0084-b448-4697-a8ea-eb64e719576a")
+		)
+		(pin "4"
+			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14528")
+		)
+		(pin "1"
+			(uuid "31437d13-ff4a-4339-af27-fbb0fa5c1731")
+		)
+		(pin "8"
+			(uuid "7f2209da-4cca-430c-bfe6-f3b516cb91f6")
+		)
+		(pin "3"
+			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8e0")
+		)
+		(pin "7"
+			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868e")
+		)
+		(pin "2"
+			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53e01")
+		)
+		(pin "6"
+			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa08")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 179.07 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "663f6a66-cbd1-4f0e-809f-a60b8c0e40bc")
+		(property "Reference" "J20"
+			(at 178.816 164.592 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_01_b"
+			(at 180.721 165.0421 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 179.07 152.908 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 179.07 155.194 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01aa7f21-f46e-42af-ba41-ef5d2a12b158")
+		)
+		(pin "2"
+			(uuid "33c411bf-4b26-40c8-a6c8-6a60c42a63d6")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 130.81 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fe80eaa-0092-49a2-b0da-0c0f6601adfc")
+		(property "Reference" "J4"
+			(at 130.81 55.626 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_01_b"
+			(at 129.159 55.9379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 130.81 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 130.81 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "894cc838-86fb-41aa-bc5c-856c7b6652c6")
+		)
+		(pin "2"
+			(uuid "8cf92447-0eeb-46ce-8462-bc80f7172f08")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:TruComponents_Rotary_Switch_LAS0_x2")
+		(at 217.17 109.22 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7390b74a-f902-4647-8c59-c632a50eef6b")
+		(property "Reference" "SW3"
+			(at 216.535 100.7689 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 217.17 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Wiring:TruComponents_SW_LAS0"
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3176,7 +4788,220 @@
 			)
 		)
 		(property "Description" ""
-			(at 225.298 137.668 0)
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 217.17 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6962f992-61a8-4309-8d8b-b3b8e175100f")
+		)
+		(pin "4"
+			(uuid "90800b8e-f87c-480e-b7f1-7be20c336c78")
+		)
+		(pin "6"
+			(uuid "43804b92-8c5e-430b-aa80-7070b1763e64")
+		)
+		(pin "8"
+			(uuid "b9385b49-e1e1-468a-8b46-b8c673bd4b18")
+		)
+		(pin "5"
+			(uuid "a90b1ec3-1b73-4c27-898e-6e96e5163ac6")
+		)
+		(pin "7"
+			(uuid "c6c10968-c697-458c-960d-f3658b7dbdb7")
+		)
+		(pin "1"
+			(uuid "148fd3a5-cd19-46b5-8055-c78ab43d8686")
+		)
+		(pin "3"
+			(uuid "05bbba61-5a33-4cae-abf5-8e0cba17fb75")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "SW3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 128.27 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73f14d1c-bc3d-4bd4-9772-c2cee7ca6e94")
+		(property "Reference" "J3"
+			(at 128.27 55.626 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_01_b"
+			(at 126.619 55.9379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 128.27 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 128.27 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7eb89ffb-ed88-4040-af21-1e8686e503e0")
+		)
+		(pin "2"
+			(uuid "6c774d2a-a26b-4bc1-82c2-296713b7c738")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:FUSE_BLOCK_TRU_COMPONENTS-TC-9070396")
+		(at 172.72 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8017e5a9-c611-4ced-946b-4476a9b396d1")
+		(property "Reference" "J8"
+			(at 187.96 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse Block"
+			(at 168.402 130.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:FUSE_BLOCK_TRU_COMPONENTS-TC-9070396"
+			(at 173.228 130.048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.228 130.048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.228 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,7 +5029,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3212,7 +5037,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 257.81 139.7 0)
+		(at 229.87 133.35 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3221,8 +5046,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81174029-e9c3-4558-a238-d6543d4f1ca8")
-		(property "Reference" "J7"
-			(at 256.794 150.876 90)
+		(property "Reference" "J10"
+			(at 229.87 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3232,8 +5057,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Block_Connector_04_b"
-			(at 259.461 140.9121 0)
+		(property "Value" "GND Block"
+			(at 231.521 134.5621 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,7 +5070,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 257.81 128.778 0)
+			(at 229.87 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +5081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 139.7 0)
+			(at 229.87 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3267,7 +5092,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 257.81 131.064 0)
+			(at 229.87 124.714 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3278,7 +5103,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 257.81 139.7 0)
+			(at 229.87 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +5114,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 257.81 139.7 0)
+			(at 229.87 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,7 +5125,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 257.81 139.7 0)
+			(at 229.87 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3310,33 +5135,33 @@
 			)
 		)
 		(pin "5"
-			(uuid "454a0084-b448-4697-a8ea-eb64e7195768")
+			(uuid "454a0084-b448-4697-a8ea-eb64e7195769")
 		)
 		(pin "4"
-			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14526")
+			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14527")
 		)
 		(pin "1"
-			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2033")
+			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2034")
 		)
 		(pin "8"
-			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1c")
+			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1d")
 		)
 		(pin "3"
-			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8de")
+			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8df")
 		)
 		(pin "7"
-			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868c")
+			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868d")
 		)
 		(pin "2"
-			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53dff")
+			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53e00")
 		)
 		(pin "6"
-			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa06")
+			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa07")
 		)
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J7")
+					(reference "J10")
 					(unit 2)
 				)
 			)
@@ -3344,7 +5169,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 213.36 60.96 90)
+		(at 152.4 33.02 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3354,8 +5179,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "813e17e5-dc70-4e5a-8bfd-f4e19d151d26")
-		(property "Reference" "J5"
-			(at 213.36 59.2907 90)
+		(property "Reference" "J2"
+			(at 152.4 31.3507 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3365,7 +5190,7 @@
 			)
 		)
 		(property "Value" "LPS-1 Monitoring Unit"
-			(at 216.154 55.626 90)
+			(at 155.194 27.686 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3375,7 +5200,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:LPS-1"
-			(at 213.36 60.96 0)
+			(at 152.4 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3386,7 +5211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 60.96 0)
+			(at 152.4 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3397,7 +5222,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 213.36 60.96 0)
+			(at 152.4 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,7 +5233,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 213.36 60.96 0)
+			(at 152.4 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3429,15 +5254,15 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 124.46 177.8 90)
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 116.84 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3445,29 +5270,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8bc7e3f0-00b3-4428-87c1-b48f92be883f")
-		(property "Reference" "J2"
-			(at 125.73 179.578 90)
+		(uuid "81535513-9393-4014-b4b4-a5d4ccee39d8")
+		(property "Reference" "J12"
+			(at 116.84 132.842 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Battery"
-			(at 125.73 181.864 90)
+		(property "Value" "Block_Connector_01_b"
+			(at 118.491 133.2921 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 124.46 177.8 0)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 116.84 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3478,7 +5306,168 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 177.8 0)
+			(at 116.84 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 116.84 123.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd2cea75-d792-4d98-b21f-587289bf8a5b")
+		)
+		(pin "2"
+			(uuid "2e810bae-5b20-4418-aca0-89315e83605b")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 219.71 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a8b9a3c-04a3-4089-b44d-4863907bc14f")
+		(property "Reference" "J15"
+			(at 219.71 181.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_01_b"
+			(at 221.361 181.5521 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 219.71 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 219.71 171.704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "052c33ba-0ef3-41b1-8e29-effb39d2293d")
+		)
+		(pin "2"
+			(uuid "ced05cbc-d712-4186-a4a6-0495084bb3eb")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 121.92 236.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bc7e3f0-00b3-4428-87c1-b48f92be883f")
+		(property "Reference" "J17"
+			(at 123.19 237.998 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery"
+			(at 123.19 240.284 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 121.92 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3489,7 +5478,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 124.46 177.8 0)
+			(at 121.92 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3500,7 +5489,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 124.46 177.8 0)
+			(at 121.92 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3518,7 +5507,84 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J2")
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 198.12 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ecd46cb-2530-4d9a-bb3e-c4a193211857")
+		(property "Reference" "#PWR01"
+			(at 200.66 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 200.152 103.124 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 198.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a5242a8-10d5-4e8f-a04e-b13553e626dc")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3526,7 +5592,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 132.08 139.7 0)
+		(at 121.92 176.53 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3534,9 +5600,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8fe29612-773f-4cc8-b76c-543774994ae7")
-		(property "Reference" "J1"
-			(at 131.064 150.114 90)
+		(uuid "91704103-d068-4d72-abb0-9fee4cb511d6")
+		(property "Reference" "J22"
+			(at 121.92 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3546,8 +5612,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Block_Connector_04_b"
-			(at 108.204 137.414 0)
+		(property "Value" "Pwr Block"
+			(at 123.571 177.7421 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3559,7 +5625,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 132.08 128.778 0)
+			(at 121.92 165.608 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3570,7 +5636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 139.7 0)
+			(at 121.92 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3581,7 +5647,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 132.08 131.064 0)
+			(at 121.92 167.894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3592,7 +5658,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 132.08 139.7 0)
+			(at 121.92 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3603,7 +5669,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 132.08 139.7 0)
+			(at 121.92 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +5680,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 132.08 139.7 0)
+			(at 121.92 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3623,42 +5689,206 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "5f514e78-6ecf-472f-bb35-d9e097daa05c")
-		)
-		(pin "2"
-			(uuid "24694110-3786-405b-acb6-f6db46a2f9cd")
-		)
-		(pin "1"
-			(uuid "c9a36ff1-0457-4542-b2c6-09d17211c765")
-		)
-		(pin "7"
-			(uuid "4a31317e-9f26-4bf4-b1e3-6abb3ab491c8")
-		)
-		(pin "6"
-			(uuid "e243d8a1-5f7c-4646-b8c5-42d9bf5aa4a6")
+		(pin "5"
+			(uuid "acc04e39-3871-4b20-a5c4-96332b824720")
 		)
 		(pin "4"
-			(uuid "c1c274f6-1002-4fd7-a9cd-1dc5e2d66ab1")
+			(uuid "660df295-42df-4286-aae9-52981c7c621f")
+		)
+		(pin "1"
+			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2033")
 		)
 		(pin "8"
-			(uuid "78b1cab3-4af8-4b94-a9a6-7447d3e9f5d2")
+			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1c")
 		)
-		(pin "5"
-			(uuid "50d280d7-4247-449b-b7a5-0009cc7ac949")
+		(pin "3"
+			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8de")
+		)
+		(pin "7"
+			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868c")
+		)
+		(pin "2"
+			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53dff")
+		)
+		(pin "6"
+			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa06")
 		)
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J1")
+					(reference "J22")
 					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 121.92 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c8fe8b4-a9ac-4363-8006-16b2d9b5ac1a")
+		(property "Reference" "J14"
+			(at 121.666 217.932 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_01_b"
+			(at 123.571 218.3821 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 121.92 206.248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 121.92 208.534 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "593b2568-5649-4908-ab6f-6cdcfdd25936")
+		)
+		(pin "2"
+			(uuid "1efa70c0-ed10-40eb-a331-c54baea93289")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 114.3 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad402e52-37fd-44c9-9613-c6e5296ac522")
+		(property "Reference" "F1"
+			(at 115.824 149.9178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Chrg Fuse"
+			(at 115.824 152.3421 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 112.522 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 114.3 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a84d0a5-3f9e-4e5e-a793-641d3a402659")
+		)
+		(pin "2"
+			(uuid "f5f3d9a9-9aff-4f0f-a2a4-fe726401e7e0")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 255.27 139.7 0)
+		(at 227.33 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3667,8 +5897,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae689192-66f0-4d49-b2f8-776187a517a9")
-		(property "Reference" "J7"
-			(at 254.254 150.876 90)
+		(property "Reference" "J10"
+			(at 227.33 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3678,8 +5908,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Block_Connector_04_b"
-			(at 264.414 137.668 0)
+		(property "Value" "GND Block"
+			(at 236.474 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3690,7 +5920,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 255.27 128.778 0)
+			(at 227.33 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3701,7 +5931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 139.7 0)
+			(at 227.33 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,7 +5942,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 255.27 131.064 0)
+			(at 227.33 124.714 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3723,7 +5953,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 255.27 139.7 0)
+			(at 227.33 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3734,7 +5964,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 255.27 139.7 0)
+			(at 227.33 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3745,7 +5975,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 255.27 139.7 0)
+			(at 227.33 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3755,33 +5985,279 @@
 			)
 		)
 		(pin "5"
-			(uuid "454a0084-b448-4697-a8ea-eb64e7195768")
+			(uuid "454a0084-b448-4697-a8ea-eb64e719576a")
 		)
 		(pin "4"
-			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14526")
+			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14528")
 		)
 		(pin "1"
-			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2033")
+			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2035")
 		)
 		(pin "8"
-			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1c")
+			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1e")
 		)
 		(pin "3"
-			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8de")
+			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8e0")
 		)
 		(pin "7"
-			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868c")
+			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868e")
 		)
 		(pin "2"
-			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53dff")
+			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53e01")
 		)
 		(pin "6"
-			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa06")
+			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa08")
 		)
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J7")
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Lamp")
+		(at 241.3 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b993c633-fd55-4c5c-865c-c326181541bf")
+		(property "Reference" "LA2"
+			(at 244.475 95.3078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Lamp"
+			(at 244.475 97.7321 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 241.3 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Lamp"
+			(at 241.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33f6366e-102b-4aec-b205-7521be448881")
+		)
+		(pin "2"
+			(uuid "09a029bb-2852-48d5-bcd7-60312838ad42")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "LA2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 114.3 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c55f5296-5ea0-47cf-b682-55653743063c")
+		(property "Reference" "J11"
+			(at 114.046 132.842 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_01_b"
+			(at 115.951 133.2921 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 114.3 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 114.3 123.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6789448-7371-445d-b405-45167ff28cf8")
+		)
+		(pin "2"
+			(uuid "61ebbcb6-736e-483c-b73e-957a293709e3")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 127 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d710434a-00fe-4fa5-b890-4dcbdc088a99")
+		(property "Reference" "J16"
+			(at 126.746 217.932 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_01_b"
+			(at 128.651 218.3821 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 127 206.248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 127 208.534 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a5d1529-7067-4a40-bc35-fdc7819078c1")
+		)
+		(pin "2"
+			(uuid "c212f245-87ec-4737-973a-b5ae8e59eb12")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -3789,139 +6265,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 129.54 139.7 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d2a1680a-3bad-4117-be34-154fdcd9e37c")
-		(property "Reference" "J1"
-			(at 128.524 150.114 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Block_Connector_04_b"
-			(at 105.664 137.414 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 129.54 128.778 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic Connector Block"
-			(at 129.54 131.064 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 129.54 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 129.54 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comp_Name" ""
-			(at 129.54 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "5f514e78-6ecf-472f-bb35-d9e097daa05c")
-		)
-		(pin "2"
-			(uuid "24694110-3786-405b-acb6-f6db46a2f9cd")
-		)
-		(pin "1"
-			(uuid "2607611a-79eb-46a2-99ae-92732f4a1637")
-		)
-		(pin "7"
-			(uuid "4a31317e-9f26-4bf4-b1e3-6abb3ab491c8")
-		)
-		(pin "6"
-			(uuid "e243d8a1-5f7c-4646-b8c5-42d9bf5aa4a6")
-		)
-		(pin "4"
-			(uuid "c1c274f6-1002-4fd7-a9cd-1dc5e2d66ab1")
-		)
-		(pin "8"
-			(uuid "c994943f-e24d-43c8-a150-7c0a7b2619e2")
-		)
-		(pin "5"
-			(uuid "50d280d7-4247-449b-b7a5-0009cc7ac949")
-		)
-		(instances
-			(project "LPS-1 Wiring"
-				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 260.35 139.7 0)
+		(at 232.41 133.35 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3930,8 +6274,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7ac650b-de10-4487-a92f-e25bcf915af6")
-		(property "Reference" "J7"
-			(at 259.334 150.622 90)
+		(property "Reference" "J10"
+			(at 232.41 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3941,8 +6285,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Block_Connector_04_b"
-			(at 262.001 140.9121 0)
+		(property "Value" "GND Block"
+			(at 234.061 134.5621 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3954,7 +6298,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 260.35 128.778 0)
+			(at 232.41 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3965,7 +6309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 139.7 0)
+			(at 232.41 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3976,7 +6320,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 260.35 131.064 0)
+			(at 232.41 124.714 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3987,7 +6331,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 260.35 139.7 0)
+			(at 232.41 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3998,7 +6342,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 260.35 139.7 0)
+			(at 232.41 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4009,7 +6353,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 260.35 139.7 0)
+			(at 232.41 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4019,41 +6363,170 @@
 			)
 		)
 		(pin "5"
-			(uuid "454a0084-b448-4697-a8ea-eb64e7195768")
+			(uuid "454a0084-b448-4697-a8ea-eb64e719576b")
 		)
 		(pin "4"
-			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14526")
+			(uuid "2e15ed47-a556-4933-8d06-6f9a04d14529")
 		)
 		(pin "1"
-			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2033")
+			(uuid "6c2ec202-200f-48d9-a53f-5871a81c2036")
 		)
 		(pin "8"
-			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1c")
+			(uuid "1d7f5c0c-25a0-48a3-b099-053f2bc3ac1f")
 		)
 		(pin "3"
-			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8de")
+			(uuid "93c12589-a404-471a-bb1a-f8a26eb5c8e1")
 		)
 		(pin "7"
-			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868c")
+			(uuid "761d8ec1-5ab4-480e-bb5d-b96594cd868f")
 		)
 		(pin "2"
-			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53dff")
+			(uuid "5b1eabc9-22f8-44bc-8146-6b48f7c53e02")
 		)
 		(pin "6"
-			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa06")
+			(uuid "6e481d7a-7b2f-4057-bf69-35b57a8bfa09")
 		)
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J7")
+					(reference "J10")
 					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "Wiring:TruComponents_Rotary_Switch_LAS0_x2")
+		(at 168.91 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5774a6c-e76a-4e81-b9ff-e6263351081f")
+		(property "Reference" "SW3"
+			(at 168.656 87.376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 168.91 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Wiring:TruComponents_SW_LAS0"
+			(at 168.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 168.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 168.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 168.91 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6962f992-61a8-4309-8d8b-b3b8e175100f")
+		)
+		(pin "4"
+			(uuid "90800b8e-f87c-480e-b7f1-7be20c336c78")
+		)
+		(pin "6"
+			(uuid "43804b92-8c5e-430b-aa80-7070b1763e64")
+		)
+		(pin "8"
+			(uuid "b9385b49-e1e1-468a-8b46-b8c673bd4b18")
+		)
+		(pin "5"
+			(uuid "a90b1ec3-1b73-4c27-898e-6e96e5163ac6")
+		)
+		(pin "7"
+			(uuid "c6c10968-c697-458c-960d-f3658b7dbdb7")
+		)
+		(pin "1"
+			(uuid "148fd3a5-cd19-46b5-8055-c78ab43d8686")
+		)
+		(pin "3"
+			(uuid "05bbba61-5a33-4cae-abf5-8e0cba17fb75")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 189.23 60.96 90)
+		(at 128.27 33.02 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4063,8 +6536,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f11004be-b2e8-43e6-8404-d87f3de38a7f")
-		(property "Reference" "J4"
-			(at 190.5 59.182 90)
+		(property "Reference" "J1"
+			(at 129.54 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4074,7 +6547,7 @@
 			)
 		)
 		(property "Value" "Solar Panel"
-			(at 190.5 56.896 90)
+			(at 129.54 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4084,7 +6557,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 189.23 60.96 0)
+			(at 128.27 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4095,7 +6568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 60.96 0)
+			(at 128.27 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +6579,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 189.23 60.96 0)
+			(at 128.27 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4117,7 +6590,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 189.23 60.96 0)
+			(at 128.27 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4135,7 +6608,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
