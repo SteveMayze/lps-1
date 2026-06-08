@@ -4008,7 +4008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51166455-83fd-4867-88b5-eaaec79c63d9")
-		(property "Reference" "J16"
+		(property "Reference" "SC1"
 			(at 104.902 102.362 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4118,7 +4118,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J16")
+					(reference "SC1")
 					(unit 1)
 				)
 			)
@@ -5116,7 +5116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8017e5a9-c611-4ced-946b-4476a9b396d1")
-		(property "Reference" "J14"
+		(property "Reference" "FB1"
 			(at 187.96 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5221,7 +5221,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J14")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -5371,7 +5371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "813e17e5-dc70-4e5a-8bfd-f4e19d151d26")
-		(property "Reference" "J17"
+		(property "Reference" "LPS1"
 			(at 152.4 31.3507 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5446,7 +5446,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J17")
+					(reference "LPS1")
 					(unit 1)
 				)
 			)
@@ -5691,7 +5691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc7e3f0-00b3-4428-87c1-b48f92be883f")
-		(property "Reference" "J13"
+		(property "Reference" "B1"
 			(at 123.19 237.998 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5763,7 +5763,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J13")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -6920,7 +6920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f11004be-b2e8-43e6-8404-d87f3de38a7f")
-		(property "Reference" "J15"
+		(property "Reference" "SP1"
 			(at 129.54 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6992,7 +6992,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J15")
+					(reference "SP1")
 					(unit 1)
 				)
 			)
