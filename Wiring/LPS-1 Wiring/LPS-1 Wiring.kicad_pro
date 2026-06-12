@@ -711,7 +711,7 @@
         "uuid": "b9731cf8-57f6-454f-95de-12f1db0e3ec9"
       }
     ],
-    "used_designators": "J13,J15,J21-22,SW1,SW3,LA2",
+    "used_designators": "J13-15,J21-22,SW1,SW3,LA2",
     "variants": []
   },
   "sheets": [
