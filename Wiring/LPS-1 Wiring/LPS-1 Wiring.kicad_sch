@@ -2174,8 +2174,8 @@
 		(uuid "3e40a0b1-91ae-47c7-ad8c-8d065c3b17e4")
 	)
 	(rectangle
-		(start 106.68 228.6)
-		(end 143.51 245.11)
+		(start 105.41 260.35)
+		(end 142.24 276.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -2186,21 +2186,8 @@
 		(uuid "4d6b6e7d-18f9-4d62-b5c6-c7f729477eec")
 	)
 	(rectangle
-		(start 152.4 57.15)
-		(end 154.94 58.42)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 0 0 255 1)
-		)
-		(uuid "5ac6fca4-43dc-4fff-b226-209d8b132079")
-	)
-	(rectangle
-		(start 95.25 51.435)
-		(end 262.255 249.555)
+		(start 46.99 51.435)
+		(end 262.255 278.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -2221,6 +2208,19 @@
 			(type none)
 		)
 		(uuid "91bf4f9a-bb4a-460d-b8a6-258b57d5439a")
+	)
+	(rectangle
+		(start 109.855 193.04)
+		(end 116.205 191.77)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid "96567985-a742-402c-95cb-698b50c7c9b3")
 	)
 	(text "Vin+ and Vout+ are shorted via the sense resistor. This means\nthat VIN+ and VOUT+ are always at 12V+ because of the J10-J9 bridge.\nThis means that it is hard to check when current is flowing/not flowing\nthrough the LPS."
 		(exclude_from_sim no)
@@ -2280,62 +2280,68 @@
 		(uuid "fa39b2b1-9f67-484d-8a00-2e89e12e7e07")
 	)
 	(junction
-		(at 229.87 115.57)
+		(at 114.3 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91b5021d-5f07-4981-b9bb-812363b48e43")
-	)
-	(junction
-		(at 181.61 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae48b569-7d2f-47d5-9062-886e5a8b0133")
-	)
-	(junction
-		(at 204.47 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d176339b-7310-4764-86ae-1c3c1f2406b2")
+		(uuid "5b1a5139-2c71-426f-b239-7a390cd152dd")
 	)
 	(no_connect
-		(at 227.33 127)
-		(uuid "130bc572-228d-450f-8923-e0b92655ce9a")
+		(at 114.3 200.66)
+		(uuid "11558096-7100-4c7a-ba31-fabea634ebf1")
 	)
 	(no_connect
 		(at 234.95 139.7)
 		(uuid "536fd633-30f5-4436-94b5-043fd44d036e")
 	)
 	(no_connect
-		(at 121.92 170.18)
+		(at 77.47 204.47)
 		(uuid "5c94791a-c9a1-4f61-8780-d5f674ad7363")
 	)
 	(no_connect
-		(at 116.84 170.18)
+		(at 72.39 204.47)
 		(uuid "5d6fb88a-38f6-4b1b-951c-6f7a05b9c2d2")
 	)
 	(no_connect
-		(at 114.3 182.88)
+		(at 69.85 217.17)
 		(uuid "6b9ec668-dcb9-4334-b031-d1f803a2bd55")
 	)
 	(no_connect
-		(at 116.84 182.88)
+		(at 229.87 127)
+		(uuid "815a35b2-b32e-4eb8-9bf3-214012d0afc2")
+	)
+	(no_connect
+		(at 72.39 217.17)
 		(uuid "86651070-1b22-43ca-aeca-a1bd4f659228")
 	)
 	(no_connect
-		(at 184.15 120.65)
+		(at 191.77 176.53)
 		(uuid "9cb21255-f2fb-4518-92e9-abdb848089a2")
 	)
 	(no_connect
-		(at 152.4 53.34)
-		(uuid "cade75a5-c52c-4244-b616-50d237ab677c")
+		(at 146.05 83.82)
+		(uuid "b404adfd-6887-4d1c-b8af-f631f287df37")
 	)
 	(no_connect
-		(at 119.38 182.88)
+		(at 146.05 102.87)
+		(uuid "b42d5a89-ee62-4a81-9b2b-d86a171a4650")
+	)
+	(no_connect
+		(at 74.93 217.17)
 		(uuid "ee9c902f-2fde-46c9-826b-c7f4c8875ac8")
 	)
 	(no_connect
 		(at 232.41 139.7)
 		(uuid "f53a3353-8ee9-4245-80bf-7d4bab79c121")
+	)
+	(wire
+		(pts
+			(xy 114.3 138.43) (xy 114.3 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b89a2c-a94f-440c-af24-df9af3a5fc70")
 	)
 	(wire
 		(pts
@@ -2349,16 +2355,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 66.04) (xy 152.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06757184-e332-40d2-b86f-bfeba03a7860")
-	)
-	(wire
-		(pts
 			(xy 130.81 30.48) (xy 130.81 59.69)
 		)
 		(stroke
@@ -2369,7 +2365,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 107.95) (xy 176.53 120.65)
+			(xy 125.73 149.86) (xy 125.73 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087f6c73-723b-444d-9c37-d8bbf1cbbbac")
+	)
+	(wire
+		(pts
+			(xy 184.15 163.83) (xy 184.15 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2379,7 +2385,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 193.04) (xy 142.24 193.04)
+			(xy 120.65 224.79) (xy 140.97 224.79)
 		)
 		(stroke
 			(width 0)
@@ -2389,13 +2395,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 93.98) (xy 181.61 82.55)
+			(xy 220.98 124.46) (xy 227.33 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0df2c6d7-35d4-46fc-9e93-24a7a7193b45")
+		(uuid "10146113-72f1-4395-8ddb-a380a5a22803")
 	)
 	(wire
 		(pts
@@ -2429,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 208.28) (xy 127 210.82)
+			(xy 125.73 240.03) (xy 125.73 242.57)
 		)
 		(stroke
 			(width 0)
@@ -2459,7 +2465,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 223.52) (xy 121.92 231.14)
+			(xy 69.85 187.96) (xy 69.85 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2971b140-f8dc-4f2d-8644-b4b20c2a2ec9")
+	)
+	(wire
+		(pts
+			(xy 120.65 255.27) (xy 120.65 262.89)
 		)
 		(stroke
 			(width 0)
@@ -2489,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 107.95) (xy 172.72 120.65)
+			(xy 180.34 163.83) (xy 180.34 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 182.88) (xy 121.92 185.42)
+			(xy 77.47 217.17) (xy 77.47 219.71)
 		)
 		(stroke
 			(width 0)
@@ -2509,43 +2525,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 82.55) (xy 158.75 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36185306-13a6-4994-89d6-1adbe4082c6b")
-	)
-	(wire
-		(pts
-			(xy 198.12 104.14) (xy 204.47 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a793cfb-e29d-4d84-95e6-7e5ac15d1adc")
-	)
-	(wire
-		(pts
-			(xy 121.92 198.12) (xy 121.92 193.04)
+			(xy 120.65 229.87) (xy 120.65 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3be22246-18db-49b8-8777-8cb9442917ad")
-	)
-	(wire
-		(pts
-			(xy 204.47 104.14) (xy 207.01 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c22340a-cc37-4645-8911-a6af4313fd1c")
 	)
 	(wire
 		(pts
@@ -2559,7 +2545,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 140.97) (xy 179.07 157.48)
+			(xy 186.69 196.85) (xy 186.69 213.36)
 		)
 		(stroke
 			(width 0)
@@ -2579,23 +2565,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 82.55) (xy 191.77 82.55)
+			(xy 125.73 168.91) (xy 125.73 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4df449f8-bb73-4394-a5ca-a51d8c246f6c")
-	)
-	(wire
-		(pts
-			(xy 157.48 66.04) (xy 157.48 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51cdc44f-606b-4610-b37b-c12166484b3b")
+		(uuid "4f9c6581-be37-42f2-a709-44440e3ddfe8")
 	)
 	(wire
 		(pts
@@ -2619,7 +2595,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 231.14) (xy 124.46 224.79)
+			(xy 123.19 262.89) (xy 123.19 256.54)
 		)
 		(stroke
 			(width 0)
@@ -2629,27 +2605,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 149.86) (xy 114.3 149.86)
+			(xy 111.76 200.66) (xy 111.76 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d785afa-29e6-45bd-a0d5-618dfd6e0385")
+		(uuid "5ccd43eb-1e17-45a8-8afc-e64da7956ed6")
 	)
 	(wire
 		(pts
-			(xy 204.47 115.57) (xy 204.47 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e207e87-0e58-4768-93cf-4c3c5b4d83b1")
-	)
-	(wire
-		(pts
-			(xy 154.94 66.04) (xy 154.94 73.66)
+			(xy 154.94 66.04) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2669,17 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 104.14) (xy 229.87 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "737f0af2-7aed-41d1-8f1c-05b9013d57e7")
-	)
-	(wire
-		(pts
-			(xy 127 198.12) (xy 153.67 198.12)
+			(xy 125.73 229.87) (xy 152.4 229.87)
 		)
 		(stroke
 			(width 0)
@@ -2689,7 +2645,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 66.04) (xy 149.86 82.55)
+			(xy 149.86 66.04) (xy 149.86 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2719,6 +2675,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 168.91) (xy 114.3 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7f47da-34d6-449f-9817-4494609a195e")
+	)
+	(wire
+		(pts
 			(xy 241.3 101.6) (xy 241.3 127)
 		)
 		(stroke
@@ -2729,37 +2695,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 115.57) (xy 229.87 115.57)
+			(xy 157.48 66.04) (xy 157.48 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8226a40f-cc07-449b-8ff9-2309b6bb656b")
+		(uuid "83bbc6ca-030a-4499-aff0-01b8a3e7fe9c")
 	)
 	(wire
 		(pts
-			(xy 114.3 138.43) (xy 114.3 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82f13c4b-ce3d-4143-9157-fb6d97973f7a")
-	)
-	(wire
-		(pts
-			(xy 158.75 93.98) (xy 146.05 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84ea9259-0e95-45e3-aa45-d1ea74e11b1a")
-	)
-	(wire
-		(pts
-			(xy 180.34 109.22) (xy 180.34 120.65)
+			(xy 187.96 165.1) (xy 187.96 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2769,13 +2715,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 185.42) (xy 137.16 185.42)
+			(xy 77.47 219.71) (xy 92.71 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8f4bd630-99b7-44aa-bc3d-721b858c38c7")
+	)
+	(wire
+		(pts
+			(xy 111.76 175.26) (xy 111.76 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e638ca-fd6a-4e84-a4ac-f8ec2a554805")
 	)
 	(wire
 		(pts
@@ -2789,43 +2745,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 208.28) (xy 121.92 210.82)
+			(xy 120.65 240.03) (xy 120.65 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93ac1f1b-5ff2-40a2-be5b-faeb1ca29735")
-	)
-	(wire
-		(pts
-			(xy 114.3 162.56) (xy 114.3 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "991369bc-de8c-4fc8-afe4-2e0f2e5ff3a9")
-	)
-	(wire
-		(pts
-			(xy 177.8 93.98) (xy 181.61 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a228a74-55dc-4025-b121-0603bf196f53")
-	)
-	(wire
-		(pts
-			(xy 229.87 104.14) (xy 229.87 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc0bc7a-cfd2-4efb-a792-9be2315d7390")
 	)
 	(wire
 		(pts
@@ -2839,7 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 162.56) (xy 138.43 162.56)
+			(xy 74.93 196.85) (xy 93.98 196.85)
 		)
 		(stroke
 			(width 0)
@@ -2869,7 +2795,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 224.79) (xy 127 224.79)
+			(xy 69.85 175.26) (xy 111.76 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b313a054-e09c-4374-84b6-15db57659a8a")
+	)
+	(wire
+		(pts
+			(xy 123.19 256.54) (xy 125.73 256.54)
 		)
 		(stroke
 			(width 0)
@@ -2879,23 +2815,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 224.79) (xy 127 223.52)
+			(xy 125.73 256.54) (xy 125.73 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ca525643-bc6e-47a5-a5b0-284e5f3eaae6")
-	)
-	(wire
-		(pts
-			(xy 229.87 115.57) (xy 229.87 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd39ee91-2c2e-4278-93bf-a9c13d1e940a")
 	)
 	(wire
 		(pts
@@ -2906,6 +2832,16 @@
 			(type default)
 		)
 		(uuid "ce0158a3-4424-4d61-928a-8cb7c1d7377b")
+	)
+	(wire
+		(pts
+			(xy 114.3 147.32) (xy 114.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8bf705-4aab-4b60-8f4b-300631781328")
 	)
 	(wire
 		(pts
@@ -2949,17 +2885,27 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 82.55) (xy 181.61 82.55)
+			(xy 227.33 124.46) (xy 227.33 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9ea1752-5655-4ffb-92e8-0f5151648d23")
+		(uuid "d54a94ab-d41c-422a-9bd5-19d60fe77c94")
 	)
 	(wire
 		(pts
-			(xy 179.07 170.18) (xy 179.07 184.15)
+			(xy 157.48 102.87) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc3b245-0416-4466-985f-d7a05fe79d1b")
+	)
+	(wire
+		(pts
+			(xy 186.69 226.06) (xy 186.69 240.03)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +2915,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 162.56) (xy 119.38 170.18)
+			(xy 125.73 147.32) (xy 114.3 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eecbac75-dd6a-4298-8a08-47e4953db1b4")
+	)
+	(wire
+		(pts
+			(xy 74.93 196.85) (xy 74.93 204.47)
 		)
 		(stroke
 			(width 0)
@@ -3009,16 +2965,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 115.57) (xy 204.47 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f943e83f-eea9-43fc-b2e5-dd44d3d9746e")
-	)
-	(wire
-		(pts
 			(xy 219.71 186.69) (xy 219.71 189.23)
 		)
 		(stroke
@@ -3029,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 149.86) (xy 114.3 154.94)
+			(xy 69.85 175.26) (xy 69.85 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3058,7 +3004,7 @@
 		(uuid "13093b7b-5b3d-4854-bd9b-763e4f24098f")
 	)
 	(label "PWR-COMM-A"
-		(at 137.16 185.42 180)
+		(at 92.71 219.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3068,7 +3014,7 @@
 		(uuid "18416e0b-da29-462f-b99e-7dabce3f4e04")
 	)
 	(label "PWR-COMM-B"
-		(at 179.07 156.21 90)
+		(at 186.69 212.09 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3078,7 +3024,7 @@
 		(uuid "2850d231-8ce4-45c0-bbe9-556c6586ed77")
 	)
 	(label "BATT+"
-		(at 138.43 162.56 180)
+		(at 93.98 196.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3088,7 +3034,7 @@
 		(uuid "294aa61a-2318-4a80-bebd-c09159149499")
 	)
 	(label "PWR-COMM-A"
-		(at 179.07 184.15 90)
+		(at 186.69 240.03 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3098,7 +3044,7 @@
 		(uuid "2b3130b3-008b-4a9c-a153-80c931e2dd8b")
 	)
 	(label "BATT+"
-		(at 142.24 193.04 180)
+		(at 140.97 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3117,15 +3063,15 @@
 		)
 		(uuid "3aaaba8d-f31c-4021-b942-3dbcb0f5c7df")
 	)
-	(label "LOAD+"
-		(at 146.05 93.98 0)
+	(label "Vin+_S1"
+		(at 125.73 179.07 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3e93cd72-c927-4fb1-8aac-16f8f225a10a")
+		(uuid "4c7decaf-da32-4ecb-97fb-783dccaa0c1a")
 	)
 	(label "Lamp +ve"
 		(at 270.51 87.63 0)
@@ -3157,6 +3103,26 @@
 		)
 		(uuid "624b29f2-9fbe-46df-8e77-49f9e32bac71")
 	)
+	(label "SYSTEM_PWR_2"
+		(at 114.3 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63eb58f5-2818-47c0-8da8-3b5345e5b8e9")
+	)
+	(label "SYSTEM_PWR_3"
+		(at 111.76 217.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7312162b-6f24-430e-a28a-55a0f1fba99f")
+	)
 	(label "Lamp -Ve"
 		(at 270.51 97.79 0)
 		(effects
@@ -3167,8 +3133,8 @@
 		)
 		(uuid "7a9dcf8c-7e83-4f44-ab14-d0ce4be08676")
 	)
-	(label "SYSTEM_PWR"
-		(at 105.41 149.86 0)
+	(label "SYSTEM_PWR_1"
+		(at 77.47 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3198,7 +3164,7 @@
 		(uuid "84d02cf0-bd13-4dfd-b441-ad4300dc2e55")
 	)
 	(label "LPS-12V"
-		(at 176.53 107.95 270)
+		(at 184.15 163.83 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3208,7 +3174,7 @@
 		(uuid "8d88fa8c-0242-4325-9941-54f2abf198a3")
 	)
 	(label "Socket 12V"
-		(at 180.34 109.22 270)
+		(at 187.96 165.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3247,16 +3213,6 @@
 		)
 		(uuid "ad1b0bcf-5cb7-4518-b39a-2d1e1a3a5744")
 	)
-	(label "LOAD+"
-		(at 157.48 73.66 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3912d09-35ca-4ec3-a17d-8e1fd865b57d")
-	)
 	(label "CHRG+"
 		(at 114.3 144.78 90)
 		(effects
@@ -3288,7 +3244,7 @@
 		(uuid "c761ccb9-00e8-4edf-9f9c-fd188d55dcf6")
 	)
 	(label "A Lamp +ve"
-		(at 172.72 107.95 270)
+		(at 180.34 163.83 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3307,8 +3263,8 @@
 		)
 		(uuid "cea37e9b-902f-47a1-96e2-383b86fd1bb7")
 	)
-	(label "CHRG+"
-		(at 154.94 73.66 90)
+	(label "Vin+_S1"
+		(at 154.94 76.2 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3328,7 +3284,7 @@
 		(uuid "d283acfa-ba6f-4b27-9513-c5e76af11883")
 	)
 	(label "LPS-12V"
-		(at 149.86 82.55 90)
+		(at 149.86 76.2 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3348,14 +3304,24 @@
 		(uuid "df9ff630-dd7d-4cad-abf3-90dde1ab0079")
 	)
 	(label "SYSTEM_PWR"
-		(at 191.77 82.55 180)
+		(at 69.85 201.93 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "e989726f-e2c0-4d4c-b35b-d886e7479ebf")
+		(uuid "efc9c59f-5950-46cf-b675-9bf254074fb6")
+	)
+	(label "SYSTEM_PWR_3"
+		(at 157.48 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa3b0be9-38d8-407b-8a06-ecf7542ba63f")
 	)
 	(label "VIN-"
 		(at 157.48 44.45 90)
@@ -3378,7 +3344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a775fe9-ae89-4cc8-aaa6-eb6c28f12563")
-		(property "Reference" "J11"
+		(property "Reference" "J12"
 			(at 149.86 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3475,7 +3441,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J11")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3449,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:SW_Push_Dual TRU Components")
-		(at 124.46 203.2 90)
+		(at 123.19 234.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3494,7 +3460,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f8ce856-81fd-4f5a-91d6-f448539cff50")
 		(property "Reference" "SW2"
-			(at 129.54 201.9878 90)
+			(at 128.27 233.7378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3505,7 +3471,7 @@
 			)
 		)
 		(property "Value" "TRU Components NO"
-			(at 129.54 204.4121 90)
+			(at 128.27 236.1621 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3516,7 +3482,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:TruComponents_SW_LAS0_1"
-			(at 116.84 203.2 0)
+			(at 115.57 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3527,7 +3493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 203.2 0)
+			(at 123.19 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3538,7 +3504,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 124.46 203.2 0)
+			(at 123.19 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3549,7 +3515,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 124.46 203.2 0)
+			(at 123.19 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3560,7 +3526,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 124.46 203.2 0)
+			(at 123.19 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3571,7 +3537,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 124.46 203.2 0)
+			(at 123.19 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3799,120 +3765,6 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_01_Pin")
-		(at 152.4 59.69 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "322c4dcd-5782-4b89-88d9-90904c4830e6")
-		(property "Reference" "J10"
-			(at 152.4 58.166 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Block_Connector_01_b"
-			(at 150.749 58.4779 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
-			(at 152.4 70.612 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic Connector Block"
-			(at 152.4 68.326 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 152.4 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" ""
-			(at 152.4 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comp_Name" ""
-			(at 152.4 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8d5a494-a5cf-4d6b-88e7-9d2cb5b1dfde")
-		)
-		(pin "2"
-			(uuid "9f2036bd-c143-4308-ba95-57c73a0bd53b")
-		)
-		(instances
-			(project "LPS-1 Wiring"
-				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Wiring:Block_Connector_01_Pin")
 		(at 154.94 59.69 180)
 		(unit 1)
 		(body_style 1)
@@ -3922,7 +3774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34b1634c-577d-459c-b003-2a73fb439e1f")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 154.94 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4019,7 +3871,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -4159,7 +4011,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 153.67 198.12 0)
+		(at 152.4 229.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4170,7 +4022,7 @@
 		(fields_autoplaced yes)
 		(uuid "4590aab9-d871-48c5-9a2c-a076df2654f5")
 		(property "Reference" "#PWR02"
-			(at 153.67 200.66 0)
+			(at 152.4 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4181,7 +4033,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 153.67 191.3199 0)
+			(at 152.4 223.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4191,7 +4043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 198.12 0)
+			(at 152.4 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4202,7 +4054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 198.12 0)
+			(at 152.4 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4213,7 +4065,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 153.67 198.12 0)
+			(at 152.4 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4217,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 119.38 176.53 0)
+		(at 74.93 210.82 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4375,7 +4227,7 @@
 		(dnp no)
 		(uuid "55702ba9-f7a3-4584-8a51-3159ee22aa31")
 		(property "Reference" "J7"
-			(at 119.38 178.308 90)
+			(at 74.93 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4386,7 +4238,7 @@
 			)
 		)
 		(property "Value" "Pwr Block"
-			(at 121.031 177.7421 0)
+			(at 76.581 212.0321 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,7 +4250,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 119.38 165.608 0)
+			(at 74.93 199.898 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4409,7 +4261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 176.53 0)
+			(at 74.93 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4272,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 119.38 167.894 0)
+			(at 74.93 202.184 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4431,7 +4283,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 119.38 176.53 0)
+			(at 74.93 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4442,7 +4294,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 119.38 176.53 0)
+			(at 74.93 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4453,7 +4305,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 119.38 176.53 0)
+			(at 74.93 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4497,7 +4349,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 116.84 176.53 0)
+		(at 72.39 210.82 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4507,7 +4359,7 @@
 		(dnp no)
 		(uuid "5c7524c5-abe4-485d-9fb2-5351876e4b6b")
 		(property "Reference" "J7"
-			(at 116.84 178.308 90)
+			(at 72.39 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4518,7 +4370,7 @@
 			)
 		)
 		(property "Value" "Pwr Block"
-			(at 118.491 177.7421 0)
+			(at 74.041 212.0321 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,7 +4382,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 116.84 165.608 0)
+			(at 72.39 199.898 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4541,7 +4393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 176.53 0)
+			(at 72.39 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4552,7 +4404,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 116.84 167.894 0)
+			(at 72.39 202.184 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,7 +4415,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 116.84 176.53 0)
+			(at 72.39 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4574,7 +4426,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 116.84 176.53 0)
+			(at 72.39 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4585,7 +4437,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 116.84 176.53 0)
+			(at 72.39 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4638,7 +4490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e8d2ad6-fb23-40cf-b4a4-2e7a412cdcf9")
-		(property "Reference" "J8"
+		(property "Reference" "J10"
 			(at 157.48 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4735,7 +4587,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J8")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4743,7 +4595,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 114.3 176.53 0)
+		(at 69.85 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4753,7 +4605,7 @@
 		(dnp no)
 		(uuid "60e6e9b4-bce2-4008-b77a-3bdf7c8916a3")
 		(property "Reference" "J7"
-			(at 114.3 178.308 90)
+			(at 69.85 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4764,7 +4616,7 @@
 			)
 		)
 		(property "Value" "Pwr Block"
-			(at 123.444 174.498 0)
+			(at 78.994 208.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4775,7 +4627,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 114.3 165.608 0)
+			(at 69.85 199.898 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +4638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 176.53 0)
+			(at 69.85 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4797,7 +4649,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 114.3 167.894 0)
+			(at 69.85 202.184 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4808,7 +4660,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 114.3 176.53 0)
+			(at 69.85 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4819,7 +4671,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 114.3 176.53 0)
+			(at 69.85 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4830,7 +4682,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 114.3 176.53 0)
+			(at 69.85 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4874,7 +4726,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_01_Pin")
-		(at 179.07 163.83 0)
+		(at 186.69 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4883,8 +4735,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "663f6a66-cbd1-4f0e-809f-a60b8c0e40bc")
-		(property "Reference" "J12"
-			(at 178.816 164.592 90)
+		(property "Reference" "J13"
+			(at 186.436 220.472 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4895,7 +4747,7 @@
 			)
 		)
 		(property "Value" "Block_Connector_01_b"
-			(at 180.721 165.0421 0)
+			(at 188.341 220.9221 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4907,7 +4759,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
-			(at 179.07 152.908 0)
+			(at 186.69 208.788 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4918,7 +4770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 163.83 0)
+			(at 186.69 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4929,7 +4781,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 179.07 155.194 0)
+			(at 186.69 211.074 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,7 +4792,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 179.07 163.83 0)
+			(at 186.69 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,7 +4803,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 179.07 163.83 0)
+			(at 186.69 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4962,7 +4814,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 179.07 163.83 0)
+			(at 186.69 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4980,7 +4832,7 @@
 		(instances
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
-					(reference "J12")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -5189,7 +5041,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:TruComponents_Rotary_Switch_LAS0_x2")
-		(at 217.17 109.22 0)
+		(at 151.13 92.71 90)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5200,17 +5052,18 @@
 		(fields_autoplaced yes)
 		(uuid "7390b74a-f902-4647-8c59-c632a50eef6b")
 		(property "Reference" "SW3"
-			(at 216.535 100.7689 0)
+			(at 159.385 93.345 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" ""
-			(at 217.17 109.22 0)
+			(at 151.13 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5220,7 +5073,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:TruComponents_SW_LAS0"
-			(at 217.17 109.22 0)
+			(at 151.13 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5231,7 +5084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 109.22 0)
+			(at 151.13 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5242,7 +5095,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 109.22 0)
+			(at 151.13 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5253,7 +5106,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 217.17 109.22 0)
+			(at 151.13 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5264,7 +5117,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 217.17 109.22 0)
+			(at 151.13 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5275,7 +5128,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 217.17 109.22 0)
+			(at 151.13 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5432,8 +5285,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Wiring:FUSE_BLOCK_TRU_COMPONENTS-TC-9070396")
-		(at 172.72 120.65 0)
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 111.76 194.31 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5441,9 +5295,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8017e5a9-c611-4ced-946b-4476a9b396d1")
-		(property "Reference" "FB1"
-			(at 187.96 139.7 0)
+		(uuid "7f3ec2bd-543c-4517-b60e-77bd61e02b22")
+		(property "Reference" "J8"
+			(at 111.76 195.834 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5453,8 +5307,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse Block"
-			(at 168.402 130.048 0)
+		(property "Value" "Block_Connector_01_b"
+			(at 110.109 195.5221 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5464,8 +5319,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Wiring:FUSE_BLOCK_TRU_COMPONENTS-TC-9070396"
-			(at 173.228 130.048 0)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 111.76 183.388 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5476,7 +5331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.228 130.048 0)
+			(at 111.76 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,8 +5341,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 173.228 130.048 0)
+		(property "Description" "Generic Connector Block"
+			(at 111.76 185.674 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5498,7 +5353,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 172.72 120.65 0)
+			(at 111.76 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5509,7 +5364,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 172.72 120.65 0)
+			(at 111.76 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +5375,120 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 172.72 120.65 0)
+			(at 111.76 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72137db9-a813-4780-8ba5-0580baf655e3")
+		)
+		(pin "2"
+			(uuid "0de7e7d5-ee12-4ed7-bbe7-11a6c64a58ab")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:FUSE_BLOCK_TRU_COMPONENTS-TC-9070396")
+		(at 180.34 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8017e5a9-c611-4ced-946b-4476a9b396d1")
+		(property "Reference" "FB1"
+			(at 195.58 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse Block"
+			(at 176.022 185.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:FUSE_BLOCK_TRU_COMPONENTS-TC-9070396"
+			(at 180.848 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.848 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.848 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 180.34 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 180.34 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 180.34 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5915,7 +5883,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 121.92 236.22 90)
+		(at 120.65 267.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5925,7 +5893,7 @@
 		(dnp no)
 		(uuid "8bc7e3f0-00b3-4428-87c1-b48f92be883f")
 		(property "Reference" "B1"
-			(at 123.19 237.998 90)
+			(at 121.92 269.748 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5935,7 +5903,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 123.19 240.284 90)
+			(at 121.92 272.034 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5945,7 +5913,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 121.92 236.22 0)
+			(at 120.65 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5956,7 +5924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 236.22 0)
+			(at 120.65 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5967,7 +5935,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 121.92 236.22 0)
+			(at 120.65 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5978,7 +5946,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 121.92 236.22 0)
+			(at 120.65 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6004,7 +5972,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 198.12 104.14 90)
+		(at 220.98 124.46 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6014,7 +5982,7 @@
 		(dnp no)
 		(uuid "8ecd46cb-2530-4d9a-bb3e-c4a193211857")
 		(property "Reference" "#PWR01"
-			(at 200.66 104.14 0)
+			(at 223.52 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,7 +5993,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 200.152 103.124 90)
+			(at 223.012 123.444 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6035,7 +6003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 104.14 0)
+			(at 220.98 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6046,7 +6014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 104.14 0)
+			(at 220.98 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6057,7 +6025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 198.12 104.14 0)
+			(at 220.98 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6081,7 +6049,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_04_Pin_B")
-		(at 121.92 176.53 0)
+		(at 77.47 210.82 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6091,7 +6059,7 @@
 		(dnp no)
 		(uuid "91704103-d068-4d72-abb0-9fee4cb511d6")
 		(property "Reference" "J7"
-			(at 121.92 178.308 90)
+			(at 77.47 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6102,7 +6070,7 @@
 			)
 		)
 		(property "Value" "Pwr Block"
-			(at 123.571 177.7421 0)
+			(at 79.121 212.0321 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6114,7 +6082,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_04_Bridged-PC2.5-01P-11-00AH-1_5.2"
-			(at 121.92 165.608 0)
+			(at 77.47 199.898 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6125,7 +6093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 176.53 0)
+			(at 77.47 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6136,7 +6104,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 121.92 167.894 0)
+			(at 77.47 202.184 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6147,7 +6115,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 121.92 176.53 0)
+			(at 77.47 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6158,7 +6126,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 121.92 176.53 0)
+			(at 77.47 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6169,7 +6137,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 121.92 176.53 0)
+			(at 77.47 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6213,7 +6181,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_01_Pin")
-		(at 121.92 217.17 0)
+		(at 120.65 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6223,7 +6191,7 @@
 		(dnp no)
 		(uuid "9c8fe8b4-a9ac-4363-8006-16b2d9b5ac1a")
 		(property "Reference" "J5"
-			(at 121.666 217.932 90)
+			(at 120.396 249.682 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6234,7 +6202,7 @@
 			)
 		)
 		(property "Value" "Block_Connector_01_b"
-			(at 123.571 218.3821 0)
+			(at 122.301 250.1321 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,7 +6214,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
-			(at 121.92 206.248 0)
+			(at 120.65 237.998 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6257,7 +6225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 217.17 0)
+			(at 120.65 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6268,7 +6236,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 121.92 208.534 0)
+			(at 120.65 240.284 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6279,7 +6247,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 121.92 217.17 0)
+			(at 120.65 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6290,7 +6258,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 121.92 217.17 0)
+			(at 120.65 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6301,7 +6269,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 121.92 217.17 0)
+			(at 120.65 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6327,7 +6295,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 114.3 158.75 0)
+		(at 69.85 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6338,7 +6306,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad402e52-37fd-44c9-9613-c6e5296ac522")
 		(property "Reference" "F1"
-			(at 115.824 157.5378 0)
+			(at 71.374 182.9378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6349,7 +6317,7 @@
 			)
 		)
 		(property "Value" "Chrg Fuse"
-			(at 115.824 159.9621 0)
+			(at 71.374 185.3621 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6360,7 +6328,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 112.522 158.75 90)
+			(at 68.072 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6371,7 +6339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 158.75 0)
+			(at 69.85 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6382,7 +6350,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 114.3 158.75 0)
+			(at 69.85 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6768,7 +6736,7 @@
 	)
 	(symbol
 		(lib_id "Wiring:Block_Connector_01_Pin")
-		(at 127 217.17 0)
+		(at 125.73 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6778,7 +6746,7 @@
 		(dnp no)
 		(uuid "d710434a-00fe-4fa5-b890-4dcbdc088a99")
 		(property "Reference" "J6"
-			(at 126.746 217.932 90)
+			(at 125.476 249.682 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6789,7 +6757,7 @@
 			)
 		)
 		(property "Value" "Block_Connector_01_b"
-			(at 128.651 218.3821 0)
+			(at 127.381 250.1321 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6801,7 +6769,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
-			(at 127 206.248 0)
+			(at 125.73 237.998 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6812,7 +6780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 217.17 0)
+			(at 125.73 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6823,7 +6791,7 @@
 			)
 		)
 		(property "Description" "Generic Connector Block"
-			(at 127 208.534 0)
+			(at 125.73 240.284 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6834,7 +6802,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 127 217.17 0)
+			(at 125.73 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6845,7 +6813,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 127 217.17 0)
+			(at 125.73 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6856,7 +6824,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 127 217.17 0)
+			(at 125.73 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7014,7 +6982,8 @@
 	)
 	(symbol
 		(lib_id "Wiring:TruComponents_Rotary_Switch_LAS0_x2")
-		(at 168.91 87.63 0)
+		(at 119.38 160.02 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7024,7 +6993,7 @@
 		(dnp no)
 		(uuid "e5774a6c-e76a-4e81-b9ff-e6263351081f")
 		(property "Reference" "SW3"
-			(at 168.656 87.376 0)
+			(at 119.126 159.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7034,7 +7003,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 168.91 87.63 0)
+			(at 119.38 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7044,7 +7013,7 @@
 			)
 		)
 		(property "Footprint" "Wiring:TruComponents_SW_LAS0"
-			(at 168.91 87.63 0)
+			(at 119.38 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7055,7 +7024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 87.63 0)
+			(at 119.38 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7066,7 +7035,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 87.63 0)
+			(at 119.38 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,7 +7046,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 168.91 87.63 0)
+			(at 119.38 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7088,7 +7057,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 168.91 87.63 0)
+			(at 119.38 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7099,7 +7068,7 @@
 			)
 		)
 		(property "Comp_Name" ""
-			(at 168.91 87.63 0)
+			(at 119.38 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7226,6 +7195,121 @@
 			(project "LPS-1 Wiring"
 				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
 					(reference "SP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Block_Connector_01_Pin")
+		(at 114.3 194.31 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffd3642f-9e4f-4f24-94b9-237ad1bf892d")
+		(property "Reference" "J9"
+			(at 114.3 195.834 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Block_Connector_01_b"
+			(at 112.649 195.5221 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wiring:Degson_01_PC2.5-01P-11-00AH-1_5.2"
+			(at 114.3 183.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic Connector Block"
+			(at 114.3 185.674 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 114.3 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comp_Name" ""
+			(at 114.3 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fa52d36-77f2-46a7-80df-1dcaac46f8d3")
+		)
+		(pin "2"
+			(uuid "93391ba1-5d2c-4b2b-91df-b7ce45d609ff")
+		)
+		(instances
+			(project "LPS-1 Wiring"
+				(path "/b9731cf8-57f6-454f-95de-12f1db0e3ec9"
+					(reference "J9")
 					(unit 1)
 				)
 			)
